@@ -19,7 +19,7 @@ public class MyGAManager {
             String trackerId = context.getResources().getString(R.string.ga_trackingId);
             TRACKER = GoogleAnalytics.getInstance(context).newTracker(trackerId);
 //            TRACKER.enableExceptionReporting(true);
-//            TRACKER.enableAdvertisingIdCollection(true);
+            TRACKER.enableAdvertisingIdCollection(true);
 //            TRACKER.enableAutoActivityTracking(true);
         }
 
