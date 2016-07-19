@@ -24,7 +24,7 @@ public class InAppBillingActivity extends Activity {
     static final String ITEM_MY_FREE = "my_free";
     static final String ITEM_SPONSOR_MONth = "sponsor_month";
     static final String ITEM_SPONSOR_YEARS = "sponsor_years";
-    static final String ITEM_SPOMSOR_OTHER = "sponsor_other";
+    static final  String ITEM_SPOMSOR_OTHER ="sponsor_other";
     static final String ITEM_MY_VIP = "my_vip";
     static final String ITEM_1000 = "1000";
     static final String ITEM_100 = "100";
@@ -44,7 +44,9 @@ public class InAppBillingActivity extends Activity {
 //        mClickBtn = (Button) findViewById(R.id.clickButton);
 //        findViewById(R.id.buyButton).setOnClickListener(this);
 //        findViewById(R.id.clickButton).setOnClickListener(this);
-        MyGAManager.sendScreenName(InAppBillingActivity.this, "內購頁面");
+        MyGAManager.sendScreenName(InAppBillingActivity.this,"內購頁面");
+
+
 
 
     }
@@ -83,27 +85,28 @@ public class InAppBillingActivity extends Activity {
                 return;
             } else if (purchase.getSku().equals(ITEM_MY_FREE)) {
                 showDilog();
-                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this, true);
-            } else if (purchase.getSku().equals(ITEM_SPONSOR_MONth)) {
+                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this,true);
+            }else if (purchase.getSku().equals(ITEM_SPONSOR_MONth)){
                 showDilog();
-                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this, true);
-            } else if (purchase.getSku().equals(ITEM_SPONSOR_YEARS)) {
+                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this,true);
+            }else if (purchase.getSku().equals(ITEM_SPONSOR_YEARS)) {
                 showDilog();
-                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this, true);
+                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this,true);
 
-            } else if (purchase.getSku().equals(ITEM_MY_VIP)) {
+            }else if (purchase.getSku().equals(ITEM_MY_VIP)) {
                 showDilog();
                 consumeItem();
 
-            } else if (purchase.getSku().equals(ITEM_1000)) {
+            }else if (purchase.getSku().equals(ITEM_1000)){
                 showDilog();
-                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this, true);
-            } else if (purchase.getSku().equals(ITEM_100)) {
+                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this,true);
+            }else if (purchase.getSku().equals(ITEM_100)){
                 showDilog();
-                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this, true);
-            } else if (purchase.getSku().equals(ITEM_SPOMSOR_OTHER)) {
+                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this,true);
+            }
+            else if (purchase.getSku().equals(ITEM_SPOMSOR_OTHER)){
                 showDilog();
-                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this, true);
+                MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this,true);
             }
 
         }
@@ -120,10 +123,11 @@ public class InAppBillingActivity extends Activity {
 
             if (result.isFailure()) {
                 // handle error here
-            } else {
+            }
+            else {
 
-                mHelper.consumeAsync(inventory.getPurchase(ITEM_MY_VIP),
-                        mConsumeFinishedListener);
+                          mHelper.consumeAsync(inventory.getPurchase(ITEM_MY_VIP),
+                          mConsumeFinishedListener);
 
             }
         }
@@ -146,11 +150,12 @@ public class InAppBillingActivity extends Activity {
                 mListView = (ListView) findViewById(R.id.buyList);
 
 
+
                 String myfree =
                         inventory.getSkuDetails(ITEM_MY_FREE).getTitle();
                 String month =
                         inventory.getSkuDetails(ITEM_SPONSOR_MONth).getTitle();
-                String other = inventory.getSkuDetails(ITEM_SPOMSOR_OTHER).getTitle();
+                String other =inventory.getSkuDetails(ITEM_SPOMSOR_OTHER).getTitle();
                 String years = inventory.getSkuDetails(ITEM_SPONSOR_YEARS).getTitle();
                 String vip = inventory.getSkuDetails(ITEM_MY_VIP).getTitle();
                 String vip_1000 = inventory.getSkuDetails(ITEM_1000).getTitle();
@@ -164,34 +169,35 @@ public class InAppBillingActivity extends Activity {
                 mylist.add(vip_100);
                 mylist.add(other);
 
-                ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(InAppBillingActivity.this, android.R.layout.simple_list_item_1, mylist);
+                ArrayAdapter<String>myAdapter = new ArrayAdapter<String>(InAppBillingActivity.this,android.R.layout.simple_list_item_1,mylist);
                 mListView.setAdapter(myAdapter);
                 mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        switch (position) {
+                        switch (position)
+                        {
                             case 0:
-                                ShowBuyDilog(inventory.getSkuDetails(ITEM_MY_FREE).getTitle(), inventory.getSkuDetails(ITEM_MY_FREE).getDescription(), inventory.getSkuDetails(ITEM_MY_FREE).getPrice(), ITEM_MY_FREE);
+                                ShowBuyDilog(inventory.getSkuDetails(ITEM_MY_FREE).getTitle(), inventory.getSkuDetails(ITEM_MY_FREE).getDescription(), inventory.getSkuDetails(ITEM_MY_FREE).getPrice(),ITEM_MY_FREE);
 
                                 break;
                             case 1:
-                                ShowBuyDilog(inventory.getSkuDetails(ITEM_SPONSOR_MONth).getTitle(), inventory.getSkuDetails(ITEM_SPONSOR_MONth).getDescription(), inventory.getSkuDetails(ITEM_SPONSOR_MONth).getPrice(), ITEM_SPONSOR_MONth);
+                                ShowBuyDilog(inventory.getSkuDetails(ITEM_SPONSOR_MONth).getTitle(), inventory.getSkuDetails(ITEM_SPONSOR_MONth).getDescription(),inventory.getSkuDetails(ITEM_SPONSOR_MONth).getPrice(),ITEM_SPONSOR_MONth);
 
                                 break;
                             case 2:
-                                ShowBuyDilog(inventory.getSkuDetails(ITEM_SPONSOR_YEARS).getTitle(), inventory.getSkuDetails(ITEM_SPONSOR_YEARS).getDescription(), inventory.getSkuDetails(ITEM_SPONSOR_YEARS).getPrice(), ITEM_SPONSOR_YEARS);
+                                ShowBuyDilog(inventory.getSkuDetails(ITEM_SPONSOR_YEARS).getTitle(), inventory.getSkuDetails(ITEM_SPONSOR_YEARS).getDescription(),inventory.getSkuDetails(ITEM_SPONSOR_YEARS).getPrice(),ITEM_SPONSOR_YEARS);
                                 break;
                             case 3:
-                                ShowBuyDilog(inventory.getSkuDetails(ITEM_MY_VIP).getTitle(), inventory.getSkuDetails(ITEM_MY_VIP).getDescription(), inventory.getSkuDetails(ITEM_MY_VIP).getPrice(), ITEM_MY_VIP);
+                                ShowBuyDilog(inventory.getSkuDetails(ITEM_MY_VIP).getTitle(), inventory.getSkuDetails(ITEM_MY_VIP).getDescription(),inventory.getSkuDetails(ITEM_MY_VIP).getPrice(),ITEM_MY_VIP);
                                 break;
                             case 4:
-                                ShowBuyDilog(inventory.getSkuDetails(ITEM_1000).getTitle(), inventory.getSkuDetails(ITEM_1000).getDescription(), inventory.getSkuDetails(ITEM_1000).getPrice(), ITEM_1000);
+                                ShowBuyDilog(inventory.getSkuDetails(ITEM_1000).getTitle(), inventory.getSkuDetails(ITEM_1000).getDescription(),inventory.getSkuDetails(ITEM_1000).getPrice(),ITEM_1000);
                                 break;
                             case 5:
-                                ShowBuyDilog(inventory.getSkuDetails(ITEM_100).getTitle(), inventory.getSkuDetails(ITEM_100).getDescription(), inventory.getSkuDetails(ITEM_100).getPrice(), ITEM_100);
+                                ShowBuyDilog(inventory.getSkuDetails(ITEM_100).getTitle(), inventory.getSkuDetails(ITEM_100).getDescription(),inventory.getSkuDetails(ITEM_100).getPrice(),ITEM_100);
                                 break;
                             case 6:
-                                ShowBuyDilog(inventory.getSkuDetails(ITEM_SPOMSOR_OTHER).getTitle(), inventory.getSkuDetails(ITEM_SPOMSOR_OTHER).getDescription(), inventory.getSkuDetails(ITEM_SPOMSOR_OTHER).getPrice(), ITEM_SPOMSOR_OTHER);
+                                ShowBuyDilog(inventory.getSkuDetails(ITEM_SPOMSOR_OTHER).getTitle(), inventory.getSkuDetails(ITEM_SPOMSOR_OTHER).getDescription(),inventory.getSkuDetails(ITEM_SPOMSOR_OTHER).getPrice(),ITEM_SPOMSOR_OTHER);
                                 break;
                         }
 
@@ -214,7 +220,7 @@ public class InAppBillingActivity extends Activity {
                         showDilog();
 //                        int index =0;
 //                        index++;
-                        MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this, true);
+                        MySharedPrefernces.saveIsBuyed(InAppBillingActivity.this,true);
 //                        Toast.makeText(getApplicationContext(),"已購買:"+index+"次",Toast.LENGTH_SHORT).show();
                     } else {
                         // handle error
@@ -234,33 +240,33 @@ public class InAppBillingActivity extends Activity {
         super.onActivityResult(requestCode, resultCode, data);
         if (!mHelper.handleActivityResult(requestCode,
                 resultCode, data)) {
-            switch (requestCode) {
+            switch (requestCode){
                 case 0:
-                    Toast.makeText(getApplicationContext(), requestCode + "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), requestCode+"", Toast.LENGTH_SHORT).show();
                     break;
                 case 1:
-                    Toast.makeText(getApplicationContext(), requestCode + "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), requestCode+"", Toast.LENGTH_SHORT).show();
                     break;
                 case 2:
-                    Toast.makeText(getApplicationContext(), requestCode + "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), requestCode+"", Toast.LENGTH_SHORT).show();
                     break;
                 case 3:
-                    Toast.makeText(getApplicationContext(), requestCode + "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), requestCode+"", Toast.LENGTH_SHORT).show();
                     break;
                 case 4:
-                    Toast.makeText(getApplicationContext(), requestCode + "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), requestCode+"", Toast.LENGTH_SHORT).show();
                     break;
                 case 5:
-                    Toast.makeText(getApplicationContext(), requestCode + "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), requestCode+"", Toast.LENGTH_SHORT).show();
                     break;
                 case 6:
-                    Toast.makeText(getApplicationContext(), requestCode + "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), requestCode+"", Toast.LENGTH_SHORT).show();
                     break;
                 case 7:
-                    Toast.makeText(getApplicationContext(), requestCode + "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), requestCode+"", Toast.LENGTH_SHORT).show();
                     break;
                 case 8:
-                    Toast.makeText(getApplicationContext(), requestCode + "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), requestCode+"", Toast.LENGTH_SHORT).show();
                     break;
 
             }
@@ -295,8 +301,7 @@ public class InAppBillingActivity extends Activity {
                                        }
                                    });
     }
-
-    private void showDilog() {
+    private  void showDilog(){
 
         new AlertDialog.Builder(this)
                 .setTitle("訊息")
@@ -311,17 +316,16 @@ public class InAppBillingActivity extends Activity {
                 .show();
 
     }
-
-    private void ShowBuyDilog(String tittle, String message, String price, final String sku) {
+    private  void ShowBuyDilog(String tittle,String message,String price,final String sku){
 
         new AlertDialog.Builder(this)
                 .setTitle(tittle)
-                .setMessage("內容:" + message + "\n\n" + "價錢:" + price)
+                .setMessage("內容:"+message+"\n\n"+"價錢:"+price)
                 .setNegativeButton("確定購買", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        MyGAManager.setGaEvent(InAppBillingActivity.this, "點即購買", "是否購買", "是");
-                        mHelper.launchPurchaseFlow(InAppBillingActivity.this, sku, 10001, mPurchaseFinishedListener, "mypurchasetoken");
+                        MyGAManager.setGaEvent(InAppBillingActivity.this,"點即購買","是否購買","是");
+                        mHelper.launchPurchaseFlow(InAppBillingActivity.this,sku,10001,mPurchaseFinishedListener, "mypurchasetoken");
                         dialog.dismiss();
 
                     }
@@ -329,7 +333,7 @@ public class InAppBillingActivity extends Activity {
                 .setPositiveButton("不了,謝謝", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        MyGAManager.setGaEvent(InAppBillingActivity.this, "點即購買", "是否購買", "否");
+                        MyGAManager.setGaEvent(InAppBillingActivity.this,"點即購買","是否購買","否");
                         dialog.dismiss();
                     }
                 })

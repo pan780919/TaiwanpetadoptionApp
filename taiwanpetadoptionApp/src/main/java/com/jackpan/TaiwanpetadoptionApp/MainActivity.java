@@ -20,7 +20,6 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -28,8 +27,6 @@ import android.widget.Toast;
 
 import com.adlocus.PushAd;
 import com.bumptech.glide.Glide;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -142,9 +139,9 @@ public class MainActivity extends Activity {
 				});
 
 //		PushAd.test(this);
-		AdView mAdView = (AdView) findViewById(R.id.adView);
-		AdRequest adRequest = new AdRequest.Builder().build();
-		mAdView.loadAd(adRequest);
+//		AdView mAdView = (AdView) findViewById(R.id.adView);
+//		AdRequest adRequest = new AdRequest.Builder().build();
+//		mAdView.loadAd(adRequest);
 //		interstitial = new InterstitialAd(this);
 //		interstitial.setAdUnitId(MyAdKey.AdmobinterstitialBannerId);
 //		AdRequest adRequest = new AdRequest.Builder().build();
@@ -315,36 +312,42 @@ public class MainActivity extends Activity {
 				mCity = new HashMap<String,ArrayList<String>>();
 				try {
 
-//					JSONArray jsonarry = new JSONArray(result);
-					JSONObject o = new JSONObject(result);
-					JSONObject resultObj = o.getJSONObject("result");
-					JSONArray jsonarry = resultObj.getJSONArray("results");
-					Log.d("Jack",jsonarry.toString());
+					JSONArray jsonarry = new JSONArray(result);
+
 					for(int i = 0 ; i < jsonarry.length();i++){
 						JSONObject jsonObject = jsonarry.getJSONObject(i);
-						Log.d("Jack",jsonObject.toString());
 						Gson gson = new Gson();
 						ResultData data = gson.fromJson(jsonObject.toString(), ResultData.class);
 
 
-						String key =data.D_Category+","+data.D_Title;
+						if(data.animal_sex.equals("M")){
+							data.animal_sex = "男孩";
+						}
+						if(data.animal_sex.equals("F")){
+							 data.animal_sex = "女孩";
+
+						}
+						if(data.animal_sex.equals("N")){
+							data.animal_sex = "沒提供";
+						}
+						String key =data.animal_kind+","+data.animal_sex;
 						ArrayList<ResultData> animalKind = mKind.get(key);
 						if (animalKind == null) {
 							animalKind = new ArrayList<ResultData>();
 
 						}
 						mKind.put(key, animalKind);
-
+							
 						animalKind.add(data);
-
-
-						ArrayList<String> towmShip = mCity.get(data.D_Category);
+						
+						
+						ArrayList<String> towmShip = mCity.get(data.animal_kind);
 						if (towmShip == null) {
 							towmShip = new ArrayList<String>();
 
 						}
-						mCity.put(data.D_Category, towmShip);
-						if(!towmShip.contains(data.D_Title)) towmShip.add(data.D_Title);
+						mCity.put(data.animal_kind, towmShip);
+						if(!towmShip.contains(data.animal_sex)) towmShip.add(data.animal_sex);
 
 //						data.startTime = MyApi.getTime(data.animal_opendate);
 
@@ -431,19 +434,17 @@ public class MainActivity extends Activity {
 			TextView bigtext= (TextView) convertView.findViewById(R.id.bigtext);
 			TextView place= (TextView) convertView.findViewById(R.id.palace);
 			TextView time= (TextView) convertView.findViewById(R.id.time);
-			textname.setText("主題:"+data.D_Title);
-			list.setText("活動期間:"+data.D_StartDate+"~"+data.D_EndDate);
-			bigtext.setText("開始日:"+data.D_StartDate);
-			bigtext.setVisibility(View.GONE);
-			place.setText("地點:"+data.D_Location);
-			time.setText("時間:"+data.D_Time);
+			textname.setText("體型:"+data.animal_bodytype);
+			list.setText("年紀:"+data.animal_age);
+			bigtext.setText(data.animal_kind);
+			place.setText("實際所在地:"+data.animal_place);
+			time.setText("開放認養時間:"+data.animal_opendate);
 			ImageView imageView = (ImageView) convertView.findViewById(R.id.photoimg);
-			LinearLayout imgLayout = (LinearLayout) convertView.findViewById(R.id.imglayout);
 			//			loadImage(data.album_file, img);
 			//			Glide.with(MainActivity.this).load(data.album_file).into(imageView);
-			if(data.D_Pic_URL.equals("")) imgLayout.setVisibility(View.GONE);
+
 			Glide.with(MainActivity.this)
-			.load(data.D_Pic_URL)
+			.load(data.album_file)
 			.centerCrop()
 			.placeholder(R.drawable.nophoto)
 			.crossFade()

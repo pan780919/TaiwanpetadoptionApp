@@ -3,13 +3,11 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal" >
-<LinearLayout
-    android:id="@+id/imglayout"
+<LinearLayout 
     android:layout_height="match_parent"
 	android:layout_width="match_parent" 
 	android:layout_weight="7"  
-	 android:orientation="horizontal"
-
+	   android:orientation="horizontal"  
     >
 
     <ImageView
@@ -35,8 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="8dp"
-            android:layout_weight="8"
-            android:visibility="gone">
+            android:layout_weight="8" >
 
             <TextView
                 android:id="@+id/bigtext"
@@ -46,8 +43,7 @@
                 android:layout_marginLeft="8dp"
                 android:text="狗"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="#8B4513"
-                android:visibility="gone"/>
+                android:textColor="#8B4513" />
 
         </LinearLayout>
 

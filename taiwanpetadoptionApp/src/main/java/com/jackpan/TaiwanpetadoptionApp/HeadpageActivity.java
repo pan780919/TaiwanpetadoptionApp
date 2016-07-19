@@ -6,14 +6,10 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
-import android.location.Address;
-import android.location.Geocoder;
-import android.location.Location;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -21,27 +17,15 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
-import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.location.LocationSettingsRequest;
-import com.google.android.gms.location.LocationSettingsResult;
 import com.util.IabHelper;
 import com.util.IabResult;
 import com.util.Inventory;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
 
-public class HeadpageActivity extends Activity  implements
-		GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+public class HeadpageActivity extends Activity {
 	static final String ITEM_MY_FREE = "my_free";
 	static final String ITEM_SPONSOR_MONth = "sponsor_month";
 	static final String ITEM_SPONSOR_YEARS = "sponsor_years";
@@ -52,10 +36,7 @@ public class HeadpageActivity extends Activity  implements
 	private boolean change = false;
 	private Button but1;
 	public ProgressDialog myDialog;
-
 	IabHelper mHelper;
-	protected Location mLastLocation;
-	private GoogleApiClient mGoogleApiClient;
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);	
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -145,6 +126,7 @@ public class HeadpageActivity extends Activity  implements
 		timer.schedule(task, 1, 800); // 參數分別是(timer需要做什麼事情，執行後多久開始執行，閃爍速度多快)
 
 
+
 		mHelper = new IabHelper(this, getString(R.string.my_license_key));
 		mHelper.startSetup(new
 								   IabHelper.OnIabSetupFinishedListener() {
@@ -161,10 +143,8 @@ public class HeadpageActivity extends Activity  implements
 									   }
 								   });
 
-
 		GetButtonView();
 		setButtonEvent();
-		buildGoogleApiClient();
 
 	}
 
@@ -277,85 +257,5 @@ public class HeadpageActivity extends Activity  implements
 		if (mHelper != null) mHelper.dispose();
 		mHelper = null;
 	}
-	@Override
-	protected void onStart() {
-		super.onStart();
-		mGoogleApiClient.connect();
-	}
-
-	@Override
-	protected void onStop() {
-		super.onStop();
-		if (mGoogleApiClient.isConnected()) {
-			mGoogleApiClient.disconnect();
-		}
-	}
-	protected synchronized void buildGoogleApiClient() {
-		mGoogleApiClient = new GoogleApiClient.Builder(this)
-				.addConnectionCallbacks(this)
-				.addOnConnectionFailedListener(this)
-				.addApi(LocationServices.API)
-				.build();
-	}
-
-	@Override
-	public void onConnected(Bundle bundle) {
-		mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
-		if (mLastLocation != null) {
-//			Log.d("jack",String.format("%s: %f", "Latitude",
-//					mLastLocation.getLatitude()));
-//			Log.d("jack", String.format("%s: %f", "Longitude",
-//					mLastLocation.getLongitude()));
-			Geocoder gc = new Geocoder(HeadpageActivity.this, Locale.TRADITIONAL_CHINESE);
-			List<Address> lstAddress = null;
-			try {
-				lstAddress = gc.getFromLocation(mLastLocation.getLatitude(), mLastLocation.getLongitude(), 1);
-				String returnAddress=lstAddress.get(0).getAddressLine(0);
-				Log.d("jack",returnAddress);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-
-		} else {
-			Toast.makeText(this, "no", Toast.LENGTH_LONG).show();
-		}
-	}
-
-	@Override
-	public void onConnectionSuspended(int i) {
-		Log.i("Jack", "Connection suspended");
-		mGoogleApiClient.connect();
-
-	}
-
-	@Override
-	public void onConnectionFailed(ConnectionResult connectionResult) {
-		Log.i("Jack", "Connection failed: ConnectionResult.getErrorCode() = " + connectionResult.getErrorCode());
-	}
-	protected void createLocationRequest() {
-		LocationRequest mLocationRequest = new LocationRequest();
-		mLocationRequest.setInterval(10000);
-		mLocationRequest.setFastestInterval(5000);
-		mLocationRequest.setPriority(LocationRequest.PRIORITY_NO_POWER);
-
-		LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
-				.addLocationRequest(mLocationRequest);
-
-		final PendingResult<LocationSettingsResult> result =
-				LocationServices.SettingsApi.checkLocationSettings(mGoogleApiClient,
-						builder.build());
-
-		result.setResultCallback(new ResultCallback<LocationSettingsResult>() {
-			@Override
-			public void onResult(LocationSettingsResult locationSettingsResult) {
-
-
-			}
-		});
-
-
-	}
-
-
 
 }

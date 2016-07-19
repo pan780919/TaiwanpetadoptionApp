@@ -104,28 +104,28 @@ public class TwoActivity extends Activity {
 	private void loadIntent() {
 		String json = getIntent().getStringExtra("json");
 		ResultData data = new Gson().fromJson(json, ResultData.class);
-//		loadImage(data.album_file, img);
-//		textview.setText("流水編號:"+data.animal_id);
-//		textview2.setText("區域編號:"+data.animal_subid);
-//		textview3.setText("所屬縣市代碼:"+data.animal_area_pkid);
-//		textview4.setText("所屬收容所代碼:"+data.animal_shelter_pkid);
-//		textview5.setText("實際所在地:"+data.animal_place);
-//		textview6.setText("類型:"+data.animal_kind);
-//		textview7.setText("性別:"+data.animal_sex);
-//		textview8.setText("體型:"+data.animal_bodytype);
-//		textview9.setText("毛色:"+data.animal_colour);
-//		textview10.setText("年紀:"+data.animal_age);
-//		textview11.setText("是否絕育:"+data.animal_sterilization);
-//		textview12.setText("是否施打狂犬病疫苗:"+data.animal_bacterin);
-//		textview13.setText("尋獲地:"+data.animal_foundplace);
-//		textview14.setText("狀態:"+data.animal_status);
-//		textview15.setText("資料備註:"+data.animal_remark);
-//		textview16.setText("開放認養時間(起):"+data.animal_opendate);
-//		textview17.setText("開放認養時間(迄):"+data.animal_closeddate);
-//		textview18.setText("資料異動時間:"+data.animal_update);
-//		textview19.setText("資料建立時間:"+data.animal_createtime);
-//		textview20.setText("所屬收容所名稱:"+data.shelter_name);
-//		MyGAManager.sendScreenName(this,"類型:"+data.animal_kind+","+"性別:"+data.animal_sex+","+"所屬收容所名稱:"+data.shelter_name);
+		loadImage(data.album_file, img);
+		textview.setText("流水編號:"+data.animal_id);
+		textview2.setText("區域編號:"+data.animal_subid);
+		textview3.setText("所屬縣市代碼:"+data.animal_area_pkid);
+		textview4.setText("所屬收容所代碼:"+data.animal_shelter_pkid);
+		textview5.setText("實際所在地:"+data.animal_place);
+		textview6.setText("類型:"+data.animal_kind);
+		textview7.setText("性別:"+data.animal_sex);
+		textview8.setText("體型:"+data.animal_bodytype);
+		textview9.setText("毛色:"+data.animal_colour);
+		textview10.setText("年紀:"+data.animal_age);
+		textview11.setText("是否絕育:"+data.animal_sterilization);
+		textview12.setText("是否施打狂犬病疫苗:"+data.animal_bacterin);
+		textview13.setText("尋獲地:"+data.animal_foundplace);
+		textview14.setText("狀態:"+data.animal_status);
+		textview15.setText("資料備註:"+data.animal_remark);
+		textview16.setText("開放認養時間(起):"+data.animal_opendate);
+		textview17.setText("開放認養時間(迄):"+data.animal_closeddate);
+		textview18.setText("資料異動時間:"+data.animal_update);
+		textview19.setText("資料建立時間:"+data.animal_createtime);
+		textview20.setText("所屬收容所名稱:"+data.shelter_name);
+		MyGAManager.sendScreenName(this,"類型:"+data.animal_kind+","+"性別:"+data.animal_sex+","+"所屬收容所名稱:"+data.shelter_name);
 		
 	}
 

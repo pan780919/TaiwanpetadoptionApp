@@ -92,15 +92,11 @@
     <init>();
 }
 
--keep class com.google.android.gms.appinvite.PreviewActivity {
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
     <init>();
 }
 
--keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
-    <init>();
-}
-
--keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
+-keep class com.google.android.gms.measurement.AppMeasurementService {
     <init>();
 }
 
@@ -116,31 +112,7 @@
     <init>();
 }
 
--keep class com.google.firebase.crash.internal.service.FirebaseCrashReceiverService {
-    <init>();
-}
-
--keep class com.google.firebase.crash.internal.service.FirebaseCrashSenderService {
-    <init>();
-}
-
--keep class com.google.android.gms.measurement.AppMeasurementReceiver {
-    <init>();
-}
-
--keep class com.google.android.gms.measurement.AppMeasurementService {
-    <init>();
-}
-
 -keep class com.google.firebase.messaging.FirebaseMessagingService {
-    <init>();
-}
-
--keep class com.google.android.gms.tagmanager.TagManagerService {
-    <init>();
-}
-
--keep class com.google.android.gms.tagmanager.TagManagerPreviewActivity {
     <init>();
 }
 
