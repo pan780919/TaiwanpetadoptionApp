@@ -1,5 +1,5 @@
--injars 'C:\Users\HYXEN20141227\Desktop\TaiwanpetadoptionApp\taiwanpetadoptionApp\build\intermediates\multi-dex\debug\allclasses.jar'
--outjars 'C:\Users\HYXEN20141227\Desktop\TaiwanpetadoptionApp\taiwanpetadoptionApp\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'C:\Users\HYXEN20141227\Documents\TaiwanpetadoptionApp\taiwanpetadoptionApp\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'C:\Users\HYXEN20141227\Documents\TaiwanpetadoptionApp\taiwanpetadoptionApp\build\intermediates\multi-dex\debug\componentClasses.jar'
 
 -libraryjars 'C:\Users\HYXEN20141227\AppData\Local\Android\Sdk\build-tools\23.0.2\lib\shrinkedAndroid.jar'
 
@@ -8,7 +8,7 @@
 -dontobfuscate
 -dontpreverify
 -dontwarn
--printconfiguration 'C:\Users\HYXEN20141227\Desktop\TaiwanpetadoptionApp\taiwanpetadoptionApp\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'C:\Users\HYXEN20141227\Documents\TaiwanpetadoptionApp\taiwanpetadoptionApp\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class null {
@@ -92,11 +92,15 @@
     <init>();
 }
 
--keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+-keep class com.google.android.gms.appinvite.PreviewActivity {
     <init>();
 }
 
--keep class com.google.android.gms.measurement.AppMeasurementService {
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
     <init>();
 }
 
@@ -112,7 +116,31 @@
     <init>();
 }
 
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashReceiverService {
+    <init>();
+}
+
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashSenderService {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
 -keep class com.google.firebase.messaging.FirebaseMessagingService {
+    <init>();
+}
+
+-keep class com.google.android.gms.tagmanager.TagManagerService {
+    <init>();
+}
+
+-keep class com.google.android.gms.tagmanager.TagManagerPreviewActivity {
     <init>();
 }
 
