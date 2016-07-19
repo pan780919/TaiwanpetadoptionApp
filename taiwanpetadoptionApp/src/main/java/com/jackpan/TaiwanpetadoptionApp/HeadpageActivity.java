@@ -50,6 +50,7 @@ public class HeadpageActivity extends Activity implements
 	IabHelper mHelper;
 	protected Location mLastLocation;
 	private GoogleApiClient mGoogleApiClient;
+	private static final String TAG = "HeadpageActivity";
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);	
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -228,10 +229,8 @@ public class HeadpageActivity extends Activity implements
 
 			if (result.isFailure())
 			{
-
-
+				Log.d(TAG, "onQueryInventoryFinished "+result.toString());
 				// handle error here
-//				Toast.makeText(getApplicationContext(),result.getMessage()+","+result.getResponse(),Toast.LENGTH_SHORT).show();
 				return;
 			}
 			else
@@ -296,33 +295,30 @@ public class HeadpageActivity extends Activity implements
 	public void onConnected(Bundle bundle) {
 		mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
 		if (mLastLocation != null) {
-//			Log.d("jack",String.format("%s: %f", "Latitude",
-//					mLastLocation.getLatitude()));
-//			Log.d("jack", String.format("%s: %f", "Longitude",
-//					mLastLocation.getLongitude()));
 			Geocoder gc = new Geocoder(HeadpageActivity.this, Locale.TRADITIONAL_CHINESE);
 			List<Address> lstAddress = null;
 			try {
 				lstAddress = gc.getFromLocation(mLastLocation.getLatitude(), mLastLocation.getLongitude(), 1);
 				String returnAddress=lstAddress.get(0).getAddressLine(0);
-				Log.d("jack",returnAddress);
+				Log.d(TAG,returnAddress);
+				MyGAManager.setGaEvent(HeadpageActivity.this,"Location","Location_now",returnAddress);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 
 		} else {
-			Toast.makeText(this, "no", Toast.LENGTH_LONG).show();
+			Log.d(TAG, "NO Location");
 		}
 	}
 
 	@Override
 	public void onConnectionSuspended(int i) {
-		Log.i("Jack", "Connection suspended");
+		Log.i(TAG, "Connection suspended");
 		mGoogleApiClient.connect();
 	}
 
 	@Override
 	public void onConnectionFailed(ConnectionResult connectionResult) {
-		Log.i("Jack", "Connection failed: ConnectionResult.getErrorCode() = " + connectionResult.getErrorCode());
+		Log.i(TAG, "Connection failed: ConnectionResult.getErrorCode() = " + connectionResult.getErrorCode());
 	}
 }
