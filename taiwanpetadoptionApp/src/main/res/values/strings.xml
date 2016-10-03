@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="facebook_app_id">583698071813390</string>
     <string name="app_name">台灣流浪動物認養APP</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">贊助</string>

@@ -21,6 +21,7 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -55,7 +56,7 @@ import java.util.Map;
 import Appkey.MyAdKey;
 
 //import com.adlocus.AdLocusLayout$ErrorCode;
-
+import com.facebook.ads.*;
 public class MainActivity extends Activity {
 	private ListView petlist;
 	//	private ArrayAdapter<String>petadp;
@@ -66,7 +67,7 @@ public class MainActivity extends Activity {
 	private boolean isCencel = false;
 	private ProgressDialog progressDialog;
 
-
+	private AdView adView;
 	private InterstitialAd interstitial;
 	private Spinner mSpinner,mSpinner2;
 	HashMap<String, ArrayList<ResultData>> mKind;
@@ -188,7 +189,11 @@ public class MainActivity extends Activity {
 //		petlist.setAdapter(adapterWrapper);
 //		mAdapter.notifyDataSetChanged();
 //		initUpdateAdsTimer();
+		RelativeLayout adViewContainer = (RelativeLayout) findViewById(R.id.adViewContainer);
 
+		adView = new AdView(this, "583698071813390_587400221443175", AdSize.BANNER_320_50);
+		adViewContainer.addView(adView);
+		adView.loadAd();
 		}
 
 	private void writeNewPost(String userId, String username, String title, String body) {
@@ -561,5 +566,9 @@ public class MainActivity extends Activity {
 		}
 
 	}
-
+	@Override
+	protected void onDestroy() {
+		adView.destroy();
+		super.onDestroy();
+	}
 }

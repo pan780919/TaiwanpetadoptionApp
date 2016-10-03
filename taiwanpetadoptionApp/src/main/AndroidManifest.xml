@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.jackpan.TaiwanpetadoptionApp"
-    android:versionCode="14"
-    android:versionName="4.3" >
+    android:versionCode="15"
+    android:versionName="4.4" >
 
     <uses-sdk
         android:minSdkVersion="9"
@@ -35,6 +35,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         >
+
+
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
@@ -147,6 +149,10 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
             </intent-filter>
         </service>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider583698071813390"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true" />
     </application>
 
 </manifest>

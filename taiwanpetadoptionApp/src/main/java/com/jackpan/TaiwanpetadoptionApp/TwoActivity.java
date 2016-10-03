@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -17,6 +18,15 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
+import com.facebook.share.Sharer;
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.model.SharePhoto;
+import com.facebook.share.model.SharePhotoContent;
+import com.facebook.share.widget.ShareDialog;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
@@ -43,6 +53,9 @@ public class TwoActivity extends Activity {
 	private Bitmap bitmap=null;
 	private InterstitialAd interstitial;
 	private 	AdView mAdView;
+	private  Button mShareBtn;
+	CallbackManager callbackManager;
+	ShareDialog shareDialog;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -58,6 +71,26 @@ public class TwoActivity extends Activity {
 		checkBuyAd();
 		initLayout();
 		loadIntent();
+		FacebookSdk.sdkInitialize(getApplicationContext());
+		callbackManager = CallbackManager.Factory.create();
+		shareDialog = new ShareDialog(this);
+		// this part is optional
+		shareDialog.registerCallback(callbackManager, new FacebookCallback<Sharer.Result>() {
+			@Override
+			public void onSuccess(Sharer.Result result) {
+
+			}
+
+			@Override
+			public void onCancel() {
+
+			}
+
+			@Override
+			public void onError(FacebookException error) {
+
+			}
+		});
 
 	}
 	private void checkBuyAd(){
@@ -78,6 +111,8 @@ public class TwoActivity extends Activity {
 	private  void initLayout(){
 
 		MyGAManager.sendScreenName(this,"資料頁面");
+		mShareBtn = (Button) findViewById(R.id.b_button_share);
+
 		textview = (TextView) findViewById(R.id.textView1);
 		textview2 = (TextView) findViewById(R.id.textView2);
 		textview3 = (TextView) findViewById(R.id.textView3);
@@ -99,11 +134,12 @@ public class TwoActivity extends Activity {
 		textview19= (TextView) findViewById(R.id.textView19);
 		textview20= (TextView) findViewById(R.id.textView20);
 		img = (ImageView) findViewById(R.id.pageimg);
+
 	}
 
 	private void loadIntent() {
 		String json = getIntent().getStringExtra("json");
-		ResultData data = new Gson().fromJson(json, ResultData.class);
+		final ResultData data = new Gson().fromJson(json, ResultData.class);
 		loadImage(data.album_file, img);
 		textview.setText("流水編號:"+data.animal_id);
 		textview2.setText("區域編號:"+data.animal_subid);
@@ -126,7 +162,22 @@ public class TwoActivity extends Activity {
 		textview19.setText("資料建立時間:"+data.animal_createtime);
 		textview20.setText("所屬收容所名稱:"+data.shelter_name);
 		MyGAManager.sendScreenName(this,"類型:"+data.animal_kind+","+"性別:"+data.animal_sex+","+"所屬收容所名稱:"+data.shelter_name);
-		
+		mShareBtn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if (ShareDialog.canShow(ShareLinkContent.class)) {
+					ShareLinkContent linkContent = new ShareLinkContent.Builder()
+							.setContentTitle("請支持認養代替購買")
+							.setContentDescription("台灣流浪動物認養APP")
+							.setContentUrl(Uri.parse("https://play.google.com/store/apps/details?id=com.jackpan.TaiwanpetadoptionApp"))
+							.setImageUrl(Uri.parse(data.album_file))
+
+							.build();
+					shareDialog.show(linkContent);
+				}
+				MyApi.copyToClipboard(getApplication(),"類型:"+data.animal_kind+"性別:"+data.animal_sex+"年紀:"+data.animal_age+"收容所名稱:"+data.shelter_name+"開放認養時間(起):"+data.animal_opendate+"開放認養時間(迄):"+data.animal_closeddate+"資料備註:"+data.animal_remark);
+			}
+		});
 	}
 
 	@Override
@@ -289,6 +340,10 @@ public class TwoActivity extends Activity {
 		  }
 		 };
 
-
+	@Override
+	protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		callbackManager.onActivityResult(requestCode, resultCode, data);
+	}
 
 }
