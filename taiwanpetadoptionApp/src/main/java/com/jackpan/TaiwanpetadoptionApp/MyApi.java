@@ -39,7 +39,7 @@ public class MyApi {
             clipboard.setPrimaryClip(clip);
             Log.e("version","2 version");
         }
-        Toast.makeText(context, "複製內容成功!!可以分享訊息囉", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "複製內容成功!!可以貼上並分享訊息囉", Toast.LENGTH_SHORT).show();
     }
 
 }

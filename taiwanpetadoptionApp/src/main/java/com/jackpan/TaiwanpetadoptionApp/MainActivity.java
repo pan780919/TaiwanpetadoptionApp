@@ -365,23 +365,18 @@ public class MainActivity extends Activity {
 
 
 				} catch (JSONException e) {
-					Log.e("Jack", "JSONException:" + e);
 				}
 
 				return allData;
 			} catch (MalformedURLException e) {
-				Log.e("test", "MalformedURLException:"+e);
 			} catch (IOException e) {
-				Log.e("test", "IOException:"+e);
 			}finally{
 
 				try {
 					if(br!=null)br.close();
 				} catch (IOException e) {
-					Log.e("Howard", "IOException:"+e);
 				}
 			}
-			Log.d("test", "JSON:" + sb);
 
 			return	null;
 

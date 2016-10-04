@@ -171,11 +171,10 @@ public class TwoActivity extends Activity {
 							.setContentDescription("台灣流浪動物認養APP")
 							.setContentUrl(Uri.parse("https://play.google.com/store/apps/details?id=com.jackpan.TaiwanpetadoptionApp"))
 							.setImageUrl(Uri.parse(data.album_file))
-
 							.build();
 					shareDialog.show(linkContent);
 				}
-				MyApi.copyToClipboard(getApplication(),"類型:"+data.animal_kind+"性別:"+data.animal_sex+"年紀:"+data.animal_age+"收容所名稱:"+data.shelter_name+"開放認養時間(起):"+data.animal_opendate+"開放認養時間(迄):"+data.animal_closeddate+"資料備註:"+data.animal_remark);
+				MyApi.copyToClipboard(getApplication(),"類型:"+data.animal_kind+"\n"+"性別:"+data.animal_sex+"\n"+"年紀:"+data.animal_age+"\n"+"收容所名稱:"+data.shelter_name+"\n"+"開放認養時間(起):"+data.animal_opendate+"開放認養時間(迄):"+data.animal_closeddate+"\n"+"資料備註:"+data.animal_remark);
 			}
 		});
 	}
