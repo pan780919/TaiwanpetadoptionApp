@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-ta/values-ta.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-ta/values-ta.xml -->
     <eat-comment/>
     <string name="com_facebook_device_auth_instructions">உங்கள் ஸ்மார்ட்ஃபோன் அல்லது கணினியில் &lt;b>facebook.com/device&lt;/b> ஐப் பார்வையிட்டு, பின்வரும் குறியீட்டை உள்ளிடவும்:</string>
     <string name="com_facebook_image_download_unknown_error">படத்தைப் பதிவிறக்கும் போது பிழை ஏற்பட்டது.</string>
@@ -8,7 +8,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest பிழை</string>
     <string name="com_facebook_like_button_liked">விரும்பப்பட்டது</string>
     <string name="com_facebook_like_button_not_liked">விருப்பம்</string>
-    <string name="com_facebook_loading">ஏற்றுகிறது...</string>
+    <string name="com_facebook_loading">ஏற்றுகிறது…</string>
     <string name="com_facebook_loginview_cancel_action">ரத்துசெய்</string>
     <string name="com_facebook_loginview_log_in_button">உள்நுழைவு</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook மூலம் உள்நுழையவும்</string>
@@ -56,7 +56,7 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"மொபைலில் திற"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"உள்நுழைக"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google மூலம் உள்நுழைக"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-ta/values-ta.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-ta/values-ta.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">அனுப்பு</string>
     <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-ta/values.xml -->

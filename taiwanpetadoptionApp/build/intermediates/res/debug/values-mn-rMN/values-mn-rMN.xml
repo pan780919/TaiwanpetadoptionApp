@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-mn-rMN/values-mn-rMN.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-mn-rMN/values-mn-rMN.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Нүүр хуудас руу шилжих"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -34,7 +34,8 @@
     <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Нэвтрүүлэхийг зогсоох"</string>
     <string msgid="5441529851481176817" name="mr_system_route_name">"Систем"</string>
     <string msgid="7498112907524977311" name="mr_user_route_category_name">"Төхөөрөмжүүд"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-mn-rMN/values-mn-rMN.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-mn-rMN/values-mn-rMN.xml -->
     <eat-comment/>
+    <string msgid="146198913615257606" name="search_menu_title">"Хайлт"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -30,9 +30,11 @@ com/google/android/gms/ads/internal/purchase/zzc.class
 com/google/android/gms/internal/zzgy.class
 com/google/ads/mediation/MediationAdapter.class
 com/google/android/gms/internal/zzic.class
+com/facebook/CustomTabActivity$1.class
 com/google/android/gms/wearable/ChannelApi$ChannelListener.class
 com/util/Inventory.class
 android/support/v4/app/AppOpsManagerCompat.class
+com/facebook/ads/Ad.class
 android/support/v7/view/ActionMode$Callback.class
 android/support/v4/graphics/drawable/DrawableCompat.class
 com/jackpan/TaiwanpetadoptionApp/R$string.class
@@ -70,6 +72,7 @@ com/google/android/gms/wallet/fragment/WalletFragmentStyle$Dimension.class
 android/support/annotation/StringDef.class
 android/support/v4/media/MediaBrowserCompat$ItemReceiver.class
 com/google/android/gms/ads/internal/client/AdRequestParcel.class
+com/facebook/ads/internal/e.class
 com/adlocus/push/s.class
 com/google/firebase/provider/FirebaseInitProvider.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21.class
@@ -78,6 +81,8 @@ com/google/android/gms/internal/zzacw.class
 com/google/android/gms/dynamic/zze.class
 android/support/annotation/IdRes.class
 android/support/v7/widget/LinearLayoutCompat$OrientationMode.class
+com/facebook/share/internal/DeviceShareDialogFragment.class
+com/facebook/appevents/AppEventsLogger.class
 android/support/v4/content/ContextCompat.class
 com/google/android/gms/ads/internal/zzf.class
 android/support/v7/widget/RecyclerView$1.class
@@ -109,6 +114,7 @@ android/support/v7/widget/ChildHelper$Callback.class
 com/google/android/gms/ads/internal/formats/zzg.class
 com/jackpan/TaiwanpetadoptionApp/HeadpageActivity$1.class
 android/support/v4/widget/MaterialProgressDrawable.class
+bolts/WebViewAppLinkResolver$2$2.class
 android/support/annotation/DrawableRes.class
 com/google/android/gms/ads/internal/formats/zzb.class
 android/support/v7/recyclerview/R$styleable.class
@@ -119,6 +125,7 @@ android/support/v4/view/animation/FastOutSlowInInterpolator.class
 com/vpon/video/ActionButton.class
 android/support/v4/app/BackStackState.class
 com/google/android/gms/games/quest/Quest.class
+com/google/android/exoplayer/MediaCodecUtil.class
 com/util/IabHelper$2.class
 com/google/android/gms/ads/purchase/InAppPurchaseActivity.class
 com/google/android/gms/ads/internal/request/zzb$zza.class
@@ -127,6 +134,7 @@ android/support/v4/media/MediaMetadataCompat$LongKey.class
 com/google/android/gms/wearable/CapabilityApi.class
 com/google/android/gms/auth/api/signin/GoogleSignInOptions.class
 com/google/android/gms/common/util/zzs.class
+com/facebook/share/widget/JoinAppGroupDialog.class
 com/vpadn/ads/VpadnAdSize.class
 com/google/android/gms/location/places/personalized/PlaceUserData.class
 com/google/android/gms/appinvite/AppInviteApi.class
@@ -204,11 +212,13 @@ com/google/android/gms/internal/zzhu.class
 com/google/android/gms/games/Players$LoadPlayersResult.class
 android/support/v4/view/ViewCompatBase.class
 com/google/android/gms/wallet/Payments.class
+com/facebook/appevents/AppEventsConstants.class
 com/google/android/gms/ads/internal/purchase/zzh.class
 com/jackpan/TaiwanpetadoptionApp/InAppBillingActivity$1.class
 android/support/v4/view/ViewCompat$JbMr1ViewCompatImpl.class
 com/google/android/gms/internal/zzei$zzc.class
 com/google/android/gms/ads/internal/util/client/zzc.class
+com/facebook/ads/AdSize.class
 com/google/android/gms/iid/MessengerCompat.class
 com/google/android/gms/iid/zzb.class
 com/google/android/gms/measurement/AppMeasurementService.class
@@ -226,6 +236,7 @@ android/support/v4/view/ViewCompatEclairMr1.class
 com/google/android/gms/location/internal/LocationRequestInternal.class
 com/google/android/gms/ads/AdActivity.class
 com/google/ads/mediation/customevent/CustomEventServerParameters.class
+com/facebook/FacebookActivity.class
 vpadn/P.class
 vpadn/Q.class
 com/google/android/gms/internal/zzfh.class
@@ -247,6 +258,7 @@ android/support/v4/view/VelocityTrackerCompat.class
 com/google/android/gms/common/api/Api$ApiOptions.class
 com/google/firebase/iid/FirebaseInstanceIdService.class
 com/google/android/gms/internal/zzjl.class
+com/facebook/FacebookContentProvider.class
 com/google/android/gms/plus/internal/model/people/PersonEntity$UrlsEntity.class
 com/google/android/gms/internal/zzgn.class
 com/google/android/gms/internal/zzcu.class
@@ -303,6 +315,7 @@ com/google/android/gms/internal/zzdk.class
 com/google/android/gms/analytics/internal/zzak$zza.class
 android/support/v7/widget/RecyclerView$ItemAnimator$ItemHolderInfo.class
 com/google/firebase/database/ValueEventListener.class
+com/facebook/internal/NativeAppCallAttachmentStore.class
 com/google/firebase/iid/zzf.class
 com/adlocus/aj.class
 android/support/v7/widget/RecyclerView$SavedState.class
@@ -344,6 +357,7 @@ c/CordovaWebView$a.class
 com/google/android/gms/internal/zzgg.class
 com/google/android/gms/ads/internal/formats/zza.class
 android/support/v4/media/MediaBrowserCompat$1.class
+com/facebook/internal/FacebookDialogFragment.class
 com/google/android/gms/wallet/CountrySpecification.class
 c/CordovaWebView$5.class
 com/google/android/gms/wearable/DataApi$DataListener.class
@@ -366,10 +380,12 @@ com/google/android/gms/ads/MobileAds$Settings.class
 com/google/android/gms/internal/zzkd.class
 com/bumptech/glide/DownloadOptions.class
 com/vpadn/widget/VpadnActivity$21.class
+com/google/android/exoplayer/MediaFormat.class
 com/google/android/gms/internal/zzkx.class
 android/support/v7/appcompat/R.class
 com/google/android/gms/internal/zzkp.class
 com/google/android/gms/iid/zzb$zza.class
+com/facebook/ads/AdView.class
 com/google/android/gms/dynamic/zzd.class
 com/vpadn/widget/VpadnActivity$13.class
 android/support/annotation/InterpolatorRes.class
@@ -380,6 +396,7 @@ android/support/v4/content/WakefulBroadcastReceiver.class
 android/support/v4/app/BackStackRecord$TransitionState.class
 vpadn/ah.class
 com/google/android/gms/internal/zzfi.class
+com/facebook/ads/AdError.class
 android/support/v7/widget/LinearLayoutCompat$LayoutParams.class
 com/google/android/gms/ads/internal/zzi.class
 android/support/v4/widget/MaterialProgressDrawable$2.class
@@ -405,10 +422,12 @@ com/google/android/gms/ads/internal/overlay/zzd.class
 android/support/v4/media/session/PlaybackStateCompat$1.class
 com/vpadn/widget/VpadnActivity$6.class
 com/google/android/gms/internal/zzgj.class
+com/facebook/share/widget/ShareDialog.class
 com/adlocus/push/a.class
 com/google/android/gms/wallet/Address.class
 android/support/annotation/FloatRange.class
 com/google/android/gms/ads/internal/reward/mediation/client/RewardItemParcel.class
+com/facebook/R.class
 com/google/android/gms/ads/internal/reward/mediation/client/zzb.class
 com/adlocus/f.class
 com/google/android/gms/common/api/Api$ApiOptions$NotRequiredOptions.class
@@ -529,6 +548,7 @@ com/google/android/gms/analytics/internal/zzae.class
 com/google/android/gms/internal/zzbv.class
 com/google/android/gms/ads/AdRequest$Builder.class
 com/google/android/gms/ads/internal/client/zzad$zza.class
+com/facebook/FacebookCallback.class
 android/support/v7/app/AppCompatDelegate.class
 com/google/android/gms/internal/zzfu.class
 com/google/android/gms/ads/internal/zzb.class
@@ -536,6 +556,7 @@ com/google/android/gms/internal/zzfz.class
 android/support/annotation/Keep.class
 android/support/v7/widget/RecyclerView$5.class
 com/google/android/gms/ads/internal/zzg.class
+com/facebook/share/Sharer.class
 com/google/android/gms/ads/internal/client/zzag.class
 com/google/firebase/crash/internal/service/FirebaseCrashSenderService.class
 android/support/v4/view/ViewCompatGingerbread.class
@@ -551,6 +572,7 @@ com/adlocus/push/PushService$b.class
 com/jackpan/TaiwanpetadoptionApp/MyFirebaseInstanceIDService.class
 com/google/android/gms/games/leaderboard/LeaderboardScore.class
 com/google/android/gms/internal/zzjt.class
+com/facebook/share/model/ShareMedia$Builder.class
 com/google/android/gms/common/data/AbstractDataBuffer.class
 com/google/android/gms/wallet/WalletConstants$CardNetwork.class
 com/google/android/gms/internal/zzcr.class
@@ -586,11 +608,14 @@ com/bumptech/glide/RequestManager.class
 android/support/v4/app/ActivityCompat.class
 com/google/android/gms/ads/internal/util/client/zza.class
 com/google/android/gms/analytics/internal/Command$1.class
+com/facebook/ads/ImpressionListener.class
 com/google/android/gms/internal/zzkz.class
 com/google/android/gms/appdatasearch/GetRecentContextCall$Response.class
 com/google/android/gms/location/places/ui/PlacePicker.class
 android/support/v4/app/FragmentActivity$1.class
 com/bumptech/glide/load/model/Headers.class
+com/facebook/FacebookException.class
+com/facebook/ads/MediaView.class
 com/google/android/gms/internal/zzlg.class
 android/support/v4/app/BackStackRecord.class
 android/support/v4/widget/SlidingPaneLayout.class
@@ -655,6 +680,7 @@ com/adlocus/AdActivity.class
 com/adlocus/AdActivity$a.class
 com/jackpan/TaiwanpetadoptionApp/MainActivity$LoadNetAsyncTask.class
 com/google/android/gms/analytics/AnalyticsReceiver.class
+com/facebook/ads/NativeAd.class
 android/support/v4/app/FragmentManagerImpl$FragmentTag.class
 com/google/gson/annotations/Until.class
 android/support/v4/app/LoaderManagerImpl.class
@@ -693,6 +719,7 @@ com/google/android/gms/wearable/DataApi$DeleteDataItemsResult.class
 android/support/v7/widget/RecyclerView$SmoothScroller.class
 com/google/android/gms/internal/zzjx.class
 com/google/android/gms/internal/zziw.class
+com/facebook/ads/InterstitialAdActivity.class
 android/support/v7/app/ActionBar$OnNavigationListener.class
 com/google/android/gms/ads/internal/request/zzd$zza.class
 com/google/android/gms/internal/zzcd.class
@@ -703,6 +730,7 @@ com/google/android/gms/nearby/messages/internal/UnpublishRequest.class
 com/google/android/gms/ads/doubleclick/PublisherAdRequest$Builder.class
 com/google/android/gms/internal/zzka.class
 com/vpadn/widget/VpadnActivity$11.class
+com/facebook/share/model/ShareModel.class
 com/google/android/gms/ads/internal/InterstitialAdParameterParcel.class
 com/vpadn/widget/VpadnActivity$19.class
 com/google/android/gms/ads/internal/util/client/zzb.class
@@ -791,6 +819,7 @@ com/google/android/gms/appinvite/PreviewActivity.class
 com/google/android/gms/internal/zzks.class
 com/google/android/gms/internal/zzkq.class
 com/google/android/gms/nearby/messages/devices/NearbyDevice.class
+com/google/android/exoplayer/FrameworkSampleSource.class
 com/google/android/gms/internal/zzij.class
 android/support/v7/appcompat/R$attr.class
 com/google/android/gms/auth/api/signin/internal/zzf$zza.class
@@ -798,11 +827,13 @@ com/google/android/gms/ads/internal/overlay/zza.class
 com/google/android/gms/ads/internal/client/zzh.class
 android/support/v7/widget/RecyclerView$AdapterDataObservable.class
 com/google/android/gms/internal/zzco.class
+com/facebook/CallbackManager.class
 com/google/android/gms/maps/StreetViewPanoramaFragment.class
 com/google/android/gms/ads/internal/zzt.class
 com/google/android/gms/internal/zzgh.class
 c/CordovaWebView$b.class
 com/google/android/gms/wallet/fragment/WalletFragmentStyle.class
+com/facebook/internal/NativeProtocol.class
 com/google/android/gms/ads/internal/client/zzad.class
 android/support/v4/util/MapCollections.class
 com/vpadn/widget/VpadnActivity$1.class
@@ -851,9 +882,12 @@ android/support/v4/view/ViewCompat$BaseViewCompatImpl.class
 android/support/v4/util/SimpleArrayMap.class
 vpadn/af.class
 com/google/android/gms/internal/zzcj.class
+com/facebook/ads/InterstitialAd.class
 android/support/v4/app/Fragment.class
+bolts/AggregateException.class
 com/google/android/gms/auth/api/signin/internal/zzi.class
 com/adlocus/push/PushService.class
+com/jackpan/TaiwanpetadoptionApp/TwoActivity$4.class
 android/support/v4/view/ViewPager.class
 com/google/android/gms/ads/BaseAdView.class
 android/support/v4/app/FragmentManagerImpl$5.class
@@ -863,8 +897,10 @@ com/jackpan/TaiwanpetadoptionApp/HeadpageActivity$5.class
 com/google/android/gms/appinvite/PreviewActivity$1.class
 com/google/android/gms/wallet/fragment/WalletFragmentStyle$BuyButtonAppearance.class
 android/support/v4/view/ViewCompatJB.class
+com/facebook/CustomTabActivity.class
 com/google/android/gms/ads/internal/overlay/zzk.class
 com/adlocus/util/f.class
+com/facebook/R$id.class
 com/google/android/gms/ads/AdRequest.class
 com/google/firebase/iid/zzb$1.class
 com/google/android/gms/ads/internal/formats/zzf.class
@@ -874,13 +910,16 @@ android/support/v7/widget/RecyclerView$RecyclerViewDataObserver.class
 android/support/v4/widget/DrawerLayout.class
 com/google/android/gms/ads/internal/zzu.class
 com/google/android/gms/wearable/DataApi$GetFdForAssetResult.class
+com/facebook/CustomTabMainActivity.class
 android/support/v4/view/ViewCompat.class
 com/bumptech/glide/GifRequestBuilder.class
 com/bumptech/glide/load/model/stream/StreamByteArrayLoader.class
+com/facebook/share/widget/CreateAppGroupDialog.class
 android/support/v4/view/WindowInsetsCompat.class
 com/google/android/gms/common/ConnectionResult.class
 com/google/android/gms/ads/internal/request/AdRequestInfoParcel$zza.class
 com/google/android/gms/ads/mediation/NetworkExtras.class
+com/facebook/CustomTabMainActivity$1.class
 android/support/v4/util/ArrayMap.class
 com/google/android/gms/drive/MetadataBuffer.class
 com/google/firebase/FirebaseException.class
@@ -914,6 +953,7 @@ com/google/firebase/database/Exclude.class
 android/support/v4/util/LogWriter.class
 com/google/android/gms/internal/zzhx.class
 com/google/android/gms/wearable/CapabilityApi$AddLocalCapabilityResult.class
+android/support/v4/app/DialogFragment.class
 android/support/v4/media/session/PlaybackStateCompat$CustomAction.class
 com/google/gson/Gson.class
 android/support/v4/app/ActivityCompat21.class
@@ -935,6 +975,7 @@ android/support/v7/widget/RecyclerView$LayoutParams.class
 android/support/v4/media/session/PlaybackStateCompat$State.class
 com/google/android/gms/analytics/Logger.class
 android/support/v4/app/FragmentController.class
+com/facebook/internal/FacebookDialogBase.class
 android/support/v4/app/SharedElementCallback.class
 vpadn/U.class
 com/google/android/gms/maps/StreetViewPanoramaView.class
@@ -944,12 +985,14 @@ android/support/v4/util/ContainerHelpers.class
 com/bumptech/glide/DrawableTypeRequest.class
 com/google/android/gms/ads/internal/client/zzm.class
 vpadn/q.class
+com/facebook/share/widget/CreateAppGroupDialog$Result.class
 com/google/android/gms/wearable/DataApi.class
 com/google/android/gms/internal/zzla.class
 com/google/android/gms/internal/zzli.class
 com/google/android/gms/internal/zzkh.class
 com/google/android/gms/internal/zzkl.class
 com/google/android/gms/wallet/Wallet$WalletOptions$Builder.class
+com/facebook/share/widget/JoinAppGroupDialog$Result.class
 com/google/android/gms/ads/internal/client/VideoOptionsParcel.class
 com/google/android/gms/internal/zzfq.class
 com/google/android/gms/internal/zzjk.class
@@ -962,6 +1005,7 @@ android/support/annotation/AnimRes.class
 com/google/android/gms/internal/zzfy.class
 android/support/v4/app/FragmentActivity$NonConfigurationInstances.class
 android/support/v7/widget/RecyclerView$4.class
+com/facebook/login/LoginFragment.class
 com/google/android/gms/ads/internal/zza.class
 com/jackpan/TaiwanpetadoptionApp/MySharedPrefernces.class
 com/jackpan/TaiwanpetadoptionApp/HeadpageActivity.class
@@ -1002,10 +1046,12 @@ com/google/android/gms/ads/internal/client/AdSizeParcel.class
 com/google/android/gms/auth/api/signin/internal/SignInHubActivity.class
 com/util/IabHelper$OnConsumeMultiFinishedListener.class
 c/CordovaWebView$4.class
+com/facebook/share/model/ShareMedia.class
 android/support/v4/media/session/PlaybackStateCompat$Builder.class
 com/google/android/gms/internal/zzep.class
 com/google/android/gms/ads/internal/request/zzc.class
 com/google/android/gms/ads/internal/client/zzaf.class
+com/facebook/share/model/ShareContent.class
 com/bumptech/glide/manager/LifecycleListener.class
 com/google/android/gms/internal/zzci.class
 com/google/android/gms/internal/zztd.class
@@ -1025,6 +1071,7 @@ com/google/android/gms/dynamic/zzg.class
 com/adlocus/push/q.class
 com/google/android/gms/common/api/CommonStatusCodes.class
 com/google/gson/reflect/TypeToken.class
+com/jackpan/TaiwanpetadoptionApp/TwoActivity$3.class
 com/google/android/gms/gcm/Task.class
 com/jackpan/TaiwanpetadoptionApp/InAppBillingActivity$7.class
 com/google/android/gms/internal/zzlf.class
@@ -1104,14 +1151,17 @@ com/google/android/gms/ads/internal/overlay/zzy.class
 com/adlocus/obj/AdLocusAd.class
 com/google/android/gms/ads/internal/request/LargeParcelTeleporter.class
 android/support/v7/widget/RecyclerView$ItemAnimator$AdapterChanges.class
+com/facebook/CallbackManager$Factory.class
 com/jackpan/TaiwanpetadoptionApp/TwoActivity$1.class
 android/support/v4/view/ViewCompat$ScrollIndicators.class
 com/adlocus/push/PushService$a.class
 com/google/android/gms/auth/api/signin/internal/zzf.class
 android/support/v7/app/AppCompatDelegateImplV11.class
 com/google/android/gms/measurement/internal/zzae$zza.class
+com/facebook/internal/CustomTab.class
 com/google/android/gms/location/LocationServices.class
 android/support/v7/view/menu/MenuItemImpl.class
+android/support/v4/content/LocalBroadcastManager.class
 android/support/annotation/NonNull.class
 com/google/android/gms/gcm/PeriodicTask.class
 android/support/v7/widget/RecyclerView$ItemAnimatorRestoreListener.class
@@ -1141,10 +1191,12 @@ android/support/v4/view/ViewCompatHC.class
 com/bumptech/glide/DrawableOptions.class
 com/google/android/gms/internal/zzjn.class
 com/google/firebase/messaging/zzb.class
+com/facebook/FacebookDialog.class
 com/adlocus/b/b.class
 android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class
 com/vpadn/widget/VpadnActivity$20.class
 com/adlocus/obj/b.class
+com/facebook/FacebookSdk.class
 com/google/android/gms/ads/internal/request/StringParcel.class
 com/google/firebase/crash/internal/service/FirebaseCrashReceiverService.class
 android/support/v4/media/session/PlaybackStateCompat.class
@@ -1161,6 +1213,7 @@ android/support/v4/media/MediaBrowserCompat$ConnectionCallback.class
 com/google/android/gms/drive/query/Query.class
 android/support/annotation/UiThread.class
 com/google/android/gms/wearable/DataApi$DataItemResult.class
+android/support/v4/app/BaseFragmentActivityEclair.class
 com/jackpan/TaiwanpetadoptionApp/InAppBillingActivity$3$1.class
 com/adlocus/aa.class
 com/google/firebase/database/FirebaseDatabase.class
@@ -1169,6 +1222,7 @@ com/google/android/gms/ads/InterstitialAd.class
 com/google/android/gms/ads/internal/reward/client/zzf.class
 com/google/android/gms/ads/internal/zzr.class
 com/google/android/gms/ads/internal/overlay/zzd$zzb.class
+com/facebook/ads/internal/i/d$a.class
 com/adlocus/b.class
 com/google/android/gms/ads/internal/client/zzo.class
 vpadn/s.class
@@ -1183,4 +1237,5 @@ com/google/android/gms/ads/internal/purchase/zzf.class
 com/google/android/gms/internal/zzlk.class
 com/google/android/gms/games/leaderboard/Leaderboard.class
 com/google/android/gms/wallet/fragment/zzc.class
+com/facebook/R$layout.class
 com/google/android/gms/internal/zzkj.class

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-gu/values-gu.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-gu/values-gu.xml -->
     <eat-comment/>
     <string name="com_facebook_device_auth_instructions">તમારા સ્માર્ટફોન અથવા કમ્પ્યુટર પર &lt;b>facebook.com/device&lt;/b> ની મુલાકાત લો અને આ કોડ દાખલ કરો:</string>
     <string name="com_facebook_image_download_unknown_error">છબી ડાઉનલોડ કરતી વખતે અનપેક્ષિત ભૂલ આવી.</string>
@@ -8,7 +8,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest ભૂલ</string>
     <string name="com_facebook_like_button_liked">પસંદ કર્યું</string>
     <string name="com_facebook_like_button_not_liked">પસંદ કરો</string>
-    <string name="com_facebook_loading">લોડ કરી રહ્યાં છે...</string>
+    <string name="com_facebook_loading">લોડ કરી રહ્યાં છે…</string>
     <string name="com_facebook_loginview_cancel_action">રદ કરો</string>
     <string name="com_facebook_loginview_log_in_button">લૉગ ઇન કરો</string>
     <string name="com_facebook_loginview_log_in_button_long">ફેસબુક સાથે લૉગ ઇન કરો</string>
@@ -56,7 +56,7 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"ફોનમાં ખોલો"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"સાઇન ઇન કરો"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google માં સાઇન ઇન કરો"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-gu/values-gu.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-gu/values-gu.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">મોકલો</string>
     <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-gu/values.xml -->

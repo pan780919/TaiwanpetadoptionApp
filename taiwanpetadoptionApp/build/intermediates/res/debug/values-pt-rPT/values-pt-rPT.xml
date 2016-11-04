@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-pt-rPT/values-pt-rPT.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-pt-rPT/values-pt-rPT.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -21,7 +21,7 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partilhar com"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partilhar com %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Reduzir"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-pt-rPT/values-pt-rPT.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-pt-rPT/values-pt-rPT.xml -->
     <eat-comment/>
     <string name="com_facebook_device_auth_instructions">Visita &lt;b>facebook.com/device&lt;/b> no teu smartphone ou computador e insere este código:</string>
     <string name="com_facebook_image_download_unknown_error">Ocorreu um erro inesperado ao descarregar uma imagem.</string>
@@ -29,7 +29,7 @@
     <string name="com_facebook_internet_permission_error_title">Erro AndroidManifest</string>
     <string name="com_facebook_like_button_liked">Gostei</string>
     <string name="com_facebook_like_button_not_liked">Gosto</string>
-    <string name="com_facebook_loading">A carregar...</string>
+    <string name="com_facebook_loading">A carregar…</string>
     <string name="com_facebook_loginview_cancel_action">Cancelar</string>
     <string name="com_facebook_loginview_log_in_button">Iniciar sessão</string>
     <string name="com_facebook_loginview_log_in_button_long">Iniciar sessão com o Facebook</string>
@@ -77,7 +77,7 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir no telemóvel"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sessão"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sessão com o Google"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-pt-rPT/values-pt-rPT.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-pt-rPT/values-pt-rPT.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">Enviar</string>
     <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-pt-rPT/values-pt-rPT.xml -->
@@ -97,7 +97,8 @@
     <eat-comment/>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Limpar pesquisa"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Pesquisar"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-pt-rPT/values-pt-rPT.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values-pt-rPT/values-pt-rPT.xml -->
     <eat-comment/>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
 </resources>

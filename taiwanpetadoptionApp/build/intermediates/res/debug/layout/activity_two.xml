@@ -36,7 +36,7 @@
                            android:layout_height="wrap_content"
                            android:id="@+id/b_button_share"
                            android:text="分享寵物資訊至Facebook"
-                           android:background="@null">
+                           >
 
                        </Button>
                 

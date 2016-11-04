@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-pa/values-pa.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-pa/values-pa.xml -->
     <eat-comment/>
     <string name="com_facebook_device_auth_instructions">ਆਪਣੇ ਸਮਾਰਟਫ਼ੋਨ ਜਾਂ ਕੰਪਿਊਟਰ \'ਤੇ &lt;b>facebook.com/device&lt;/b> ਵਿੱਚ ਜਾਓ ਅਤੇ ਇਸ ਕੋਡ ਨੂੰ ਦਾਖ਼ਲ ਕਰੋ:</string>
     <string name="com_facebook_image_download_unknown_error">ਕਿਸੇ ਤਸਵੀਰ ਨੂੰ ਡਾਉਨਲੋਡ ਕਰਨ ਵੇਲੇ ਅਗਿਆਤ ਤਰੁੱਟੀ ਹੋ ਗਈ।</string>
@@ -8,7 +8,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest ਤਰੁੱਟੀ</string>
     <string name="com_facebook_like_button_liked">ਪਸੰਦ ਕੀਤਾ ਗਿਆ</string>
     <string name="com_facebook_like_button_not_liked">ਪਸੰਦ ਕਰੋ</string>
-    <string name="com_facebook_loading">ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ...</string>
+    <string name="com_facebook_loading">ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ…</string>
     <string name="com_facebook_loginview_cancel_action">ਰੱਦ ਕਰੋ</string>
     <string name="com_facebook_loginview_log_in_button">ਲੌਗ ਇਨ ਕਰੋ</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook ਦੇ ਨਾਲ ਲੌਗ ਇਨ ਕਰੋ</string>
@@ -56,7 +56,7 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"ਫ਼ੋਨ \'ਤੇ ਖੋਲ੍ਹੋ"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ਸਾਈਨ ਇਨ ਕਰੇ"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-pa/values-pa.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-pa/values-pa.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">ਭੇਜੋ</string>
     <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-pa/values.xml -->

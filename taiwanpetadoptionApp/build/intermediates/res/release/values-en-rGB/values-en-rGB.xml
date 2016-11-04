@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-en-rGB/values-en-rGB.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-en-rGB/values-en-rGB.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigate home"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -75,7 +75,7 @@
     <eat-comment/>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Clear search"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Search"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-en-rGB/values-en-rGB.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-en-rGB/values-en-rGB.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

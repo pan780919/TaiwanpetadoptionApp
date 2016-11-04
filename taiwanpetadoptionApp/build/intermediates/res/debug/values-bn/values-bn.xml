@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-bn/values-bn.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-bn/values-bn.xml -->
     <eat-comment/>
     <string name="com_facebook_device_auth_instructions">আপনার কম্পিউটার বা স্মার্টফোন থেকে &lt;b>facebook.com/device&lt;/b> এ যান এবং এই কোডটিকে প্রবেশ করান:</string>
     <string name="com_facebook_image_download_unknown_error">একটি চিত্র ডাউনলোড করার সময়ে অপ্রত্যাশিত ত্রুটি দেখা দিচ্ছে৷</string>
@@ -8,7 +8,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest ত্রুটি</string>
     <string name="com_facebook_like_button_liked">পছন্দ করা হয়েছে</string>
     <string name="com_facebook_like_button_not_liked">পছন্দ করুন</string>
-    <string name="com_facebook_loading">লোড হচ্ছে...</string>
+    <string name="com_facebook_loading">লোড হচ্ছে…</string>
     <string name="com_facebook_loginview_cancel_action">বাতিল করুন</string>
     <string name="com_facebook_loginview_log_in_button">লগ ইন করুন</string>
     <string name="com_facebook_loginview_log_in_button_long">Facebook -এর সাথে লগ ইন করুন</string>
@@ -56,7 +56,7 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"ফোনে খুলুন"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"সাইন ইন করুন"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google এর মাধ্যমে সাইন ইন করুন"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-bn/values-bn.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-bn/values-bn.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">প্রেরণ করুন</string>
     <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-bn/values.xml -->

@@ -67,7 +67,6 @@ public class TwoActivity extends Activity {
 		setContentView(R.layout.activity_two);
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		mAdView = (AdView) findViewById(R.id.adView);
-
 		checkBuyAd();
 		initLayout();
 		loadIntent();
