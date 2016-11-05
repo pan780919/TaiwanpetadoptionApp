@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-mr/values-mr.xml -->
+    <!-- From: file:/Users/jackpan/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-mr/values-mr.xml -->
     <eat-comment/>
     <string name="com_facebook_device_auth_instructions">आपला स्‍मार्ट फोन किंवा संगणकावर &lt;b>facebook.com/device&lt;/b> ला भेट द्या आणि हा कोड प्रविष्‍ट करा:</string>
     <string name="com_facebook_image_download_unknown_error">प्रतिमा डाउनलोड करताना अनपेक्षित त्रुटी.</string>
@@ -8,7 +8,7 @@
     <string name="com_facebook_internet_permission_error_title">AndroidManifest त्रुटी</string>
     <string name="com_facebook_like_button_liked">आवडलेले</string>
     <string name="com_facebook_like_button_not_liked">आवडले</string>
-    <string name="com_facebook_loading">लोड होत आहे...</string>
+    <string name="com_facebook_loading">लोड होत आहे…</string>
     <string name="com_facebook_loginview_cancel_action">रद्द करा</string>
     <string name="com_facebook_loginview_log_in_button">लॉग इन करा</string>
     <string name="com_facebook_loginview_log_in_button_long">फेसबुकसह लॉग इन करा</string>
@@ -19,7 +19,7 @@
     <string name="com_facebook_send_button_text">पाठवा</string>
     <string name="com_facebook_share_button_text">सामायिक करा</string>
     <string name="com_facebook_tooltip_default">नवीन! आपण नियंत्रणात आहात - आपण कोणती माहिती अनुप्रयोगांसह शेअर करू इच्छिता ते निवडा.</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-mr/values.xml -->
+    <!-- From: file:/Users/jackpan/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-mr/values.xml -->
     <eat-comment/>
     <string msgid="4770915072144378781" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ला सध्‍या उपलब्‍ध नसलेल्‍या एक किंवा अधिक Google Play सेवांची आवश्‍यकता आहे. कृपया सहाय्यासाठी विकासकाशी संपर्क साधा."</string>
     <string msgid="2050101795821476669" name="common_google_play_services_enable_button">"Google Play सेवा सक्षम करा"</string>
@@ -40,10 +40,10 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"प्रतिबंधित प्रोफाईल"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"निर्दिष्ट खात्यात साइन इन करताना त्रुटी. कृपया एक भिन्न खाते निवडा."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"साइन इन अयशस्वी"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values-mr/values.xml -->
+    <!-- From: file:/Users/jackpan/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values-mr/values.xml -->
     <eat-comment/>
     <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ला Google Play सेवांसह समस्या येत आहे. समस्या कायम राहिल्यास, कृपया सहाय्यासाठी विकासकाशी संपर्क साधा."</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-mr/values.xml -->
+    <!-- From: file:/Users/jackpan/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-mr/values.xml -->
     <eat-comment/>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play सेवांवर अवलंबून असतो, ज्या आपल्‍या डिव्‍हाइसवर समर्थित नाही. सहाय्यासाठी निर्मात्याशी संपर्क साधा."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play सेवा"</string>
@@ -56,10 +56,10 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"फोनवर उघडा"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"साइन इन करा"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google सह साइन इन करा"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.0/res/values-mr/values-mr.xml -->
+    <!-- From: file:/Users/jackpan/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/values-mr/values-mr.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">पाठवा</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-mr/values.xml -->
+    <!-- From: file:/Users/jackpan/TaiwanpetadoptionApp/taiwanpetadoptionApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-mr/values.xml -->
     <eat-comment/>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"शोध साफ करा"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"शोध"</string>

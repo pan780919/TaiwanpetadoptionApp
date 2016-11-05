@@ -7650,114 +7650,6 @@ MERGED from com.android.support:support-core-ui:25.0.0:21:5
 MERGED from com.android.support:support-compat:25.0.0:21:5
 MERGED from com.android.support:support-core-utils:25.0.0:21:5
 MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.google.firebase:firebase-messaging:9.0.0:18:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:18:5
-MERGED from com.android.support:support-v4:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-fragment:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.google.firebase:firebase-iid:9.0.0:18:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:18:5
-MERGED from com.android.support:support-v4:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-fragment:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.google.firebase:firebase-common:9.0.0:4:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:18:5
-MERGED from com.android.support:support-v4:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-fragment:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.google.android.gms:play-services-tasks:9.0.0:4:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:18:5
-MERGED from com.android.support:support-v4:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-fragment:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.google.firebase:firebase-common:9.0.0:4:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:18:5
-MERGED from com.android.support:support-v4:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-fragment:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.google.android.gms:play-services-tasks:9.0.0:4:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:18:5
-MERGED from com.android.support:support-v4:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-fragment:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-media-compat:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-ui:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
-MERGED from com.android.support:support-core-utils:25.0.0:21:5
-MERGED from com.android.support:support-compat:25.0.0:21:5
 MERGED from TaiwanpetadoptionApp:admobadapter:unspecified:7:5
 MERGED from com.android.support:appcompat-v7:25.0.0:21:5
 MERGED from com.android.support:support-v4:25.0.0:21:5
@@ -8199,7 +8091,6 @@ MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:20:5
 MERGED from com.google.firebase:firebase-analytics:9.0.0:21:5
 MERGED from com.google.firebase:firebase-analytics-impl:9.0.0:21:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:21:5
-MERGED from com.google.firebase:firebase-iid:9.0.0:21:5
 MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:20:5
 MERGED from com.google.firebase:firebase-analytics:9.0.0:21:5
 MERGED from com.google.firebase:firebase-analytics-impl:9.0.0:21:5
@@ -8257,7 +8148,6 @@ MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:21:5
 MERGED from com.google.firebase:firebase-analytics:9.0.0:22:5
 MERGED from com.google.firebase:firebase-analytics-impl:9.0.0:22:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:20:5
-MERGED from com.google.firebase:firebase-iid:9.0.0:20:5
 MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:21:5
 MERGED from com.google.firebase:firebase-analytics:9.0.0:22:5
 MERGED from com.google.firebase:firebase-analytics-impl:9.0.0:22:5
@@ -8307,7 +8197,6 @@ MERGED from com.google.firebase:firebase-analytics-impl:9.0.0:24:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:22:5
 MERGED from com.google.firebase:firebase-analytics:9.0.0:24:5
 MERGED from com.google.firebase:firebase-analytics-impl:9.0.0:24:5
-MERGED from com.google.firebase:firebase-iid:9.0.0:22:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:22:5
 MERGED from com.google.firebase:firebase-analytics:9.0.0:24:5
 MERGED from com.google.firebase:firebase-analytics-impl:9.0.0:24:5
@@ -15946,114 +15835,6 @@ MERGED from com.android.support:support-core-ui:25.0.0:25:5
 MERGED from com.android.support:support-compat:25.0.0:25:5
 MERGED from com.android.support:support-core-utils:25.0.0:25:5
 MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.google.firebase:firebase-messaging:9.0.0:20:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:20:5
-MERGED from com.android.support:support-v4:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-fragment:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.google.firebase:firebase-iid:9.0.0:30:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:20:5
-MERGED from com.android.support:support-v4:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-fragment:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.google.firebase:firebase-common:9.0.0:5:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:20:5
-MERGED from com.android.support:support-v4:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-fragment:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.google.android.gms:play-services-tasks:9.0.0:5:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:20:5
-MERGED from com.android.support:support-v4:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-fragment:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.google.firebase:firebase-common:9.0.0:5:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:20:5
-MERGED from com.android.support:support-v4:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-fragment:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.google.android.gms:play-services-tasks:9.0.0:5:5
-MERGED from com.google.android.gms:play-services-basement:9.0.0:20:5
-MERGED from com.android.support:support-v4:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-fragment:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-media-compat:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-ui:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
-MERGED from com.android.support:support-core-utils:25.0.0:25:5
-MERGED from com.android.support:support-compat:25.0.0:25:5
 MERGED from com.android.support:appcompat-v7:25.0.0:25:5
 MERGED from com.android.support:support-v4:25.0.0:25:5
 MERGED from com.android.support:support-compat:25.0.0:25:5
@@ -16435,658 +16216,654 @@ MERGED from com.android.support:support-compat:25.0.0:25:5
 MERGED from com.android.support:support-core-utils:25.0.0:25:5
 MERGED from com.android.support:support-compat:25.0.0:25:5
 	android:label
-		ADDED from AndroidManifest.xml:35:9
-	android:allowBackup
-		ADDED from AndroidManifest.xml:33:9
-	android:icon
-		ADDED from AndroidManifest.xml:34:9
-	android:theme
 		ADDED from AndroidManifest.xml:36:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:34:9
+	android:icon
+		ADDED from AndroidManifest.xml:35:9
+	android:theme
+		ADDED from AndroidManifest.xml:37:9
+	android:name
+		ADDED from AndroidManifest.xml:33:9
 activity#com.jackpan.TaiwanpetadoptionApp.MainActivity
-ADDED from AndroidManifest.xml:40:9
+ADDED from AndroidManifest.xml:41:9
 	android:screenOrientation
+		ADDED from AndroidManifest.xml:46:13
+	android:label
 		ADDED from AndroidManifest.xml:45:13
-	android:label
+	android:hardwareAccelerated
 		ADDED from AndroidManifest.xml:44:13
-	android:hardwareAccelerated
+	android:configChanges
 		ADDED from AndroidManifest.xml:43:13
-	android:configChanges
+	android:name
 		ADDED from AndroidManifest.xml:42:13
-	android:name
-		ADDED from AndroidManifest.xml:41:13
 activity#com.jackpan.TaiwanpetadoptionApp.TwoActivity
-ADDED from AndroidManifest.xml:47:9
+ADDED from AndroidManifest.xml:48:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:52:13
+		ADDED from AndroidManifest.xml:53:13
 	android:label
-		ADDED from AndroidManifest.xml:51:13
+		ADDED from AndroidManifest.xml:52:13
 	android:hardwareAccelerated
-		ADDED from AndroidManifest.xml:50:13
+		ADDED from AndroidManifest.xml:51:13
 	android:configChanges
-		ADDED from AndroidManifest.xml:49:13
+		ADDED from AndroidManifest.xml:50:13
 	android:name
-		ADDED from AndroidManifest.xml:48:13
+		ADDED from AndroidManifest.xml:49:13
 activity#com.adlocus.AdActivity
-ADDED from AndroidManifest.xml:56:9
+ADDED from AndroidManifest.xml:57:9
 MERGED from com.adlocus:library:3.5.2:24:9
 	android:parentActivityName
-		ADDED from AndroidManifest.xml:58:13
+		ADDED from AndroidManifest.xml:59:13
 	android:excludeFromRecents
 		ADDED from com.adlocus:library:3.5.2:26:13
 	android:launchMode
 		ADDED from com.adlocus:library:3.5.2:27:13
 	android:theme
-		ADDED from AndroidManifest.xml:59:13
+		ADDED from AndroidManifest.xml:60:13
 	android:name
-		ADDED from AndroidManifest.xml:57:13
+		ADDED from AndroidManifest.xml:58:13
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from AndroidManifest.xml:60:13
+ADDED from AndroidManifest.xml:61:13
 	android:value
-		ADDED from AndroidManifest.xml:62:17
+		ADDED from AndroidManifest.xml:63:17
 	android:name
-		ADDED from AndroidManifest.xml:61:17
+		ADDED from AndroidManifest.xml:62:17
 activity#com.adlocus.VideoAdActivity
-ADDED from AndroidManifest.xml:64:9
+ADDED from AndroidManifest.xml:65:9
 MERGED from com.adlocus:library:3.5.2:30:9
 	android:hardwareAccelerated
-		ADDED from AndroidManifest.xml:67:13
+		ADDED from AndroidManifest.xml:68:13
 	android:launchMode
 		ADDED from com.adlocus:library:3.5.2:34:13
 	android:configChanges
-		ADDED from AndroidManifest.xml:66:13
+		ADDED from AndroidManifest.xml:67:13
 	android:name
-		ADDED from AndroidManifest.xml:65:13
+		ADDED from AndroidManifest.xml:66:13
 service#com.adlocus.push.PushService
-ADDED from AndroidManifest.xml:70:9
+ADDED from AndroidManifest.xml:71:9
 MERGED from com.adlocus:library:3.5.2:37:9
 	android:process
-		ADDED from AndroidManifest.xml:72:13
+		ADDED from AndroidManifest.xml:73:13
 	android:name
-		ADDED from AndroidManifest.xml:71:13
+		ADDED from AndroidManifest.xml:72:13
 receiver#com.adlocus.push.PushReceive
-ADDED from AndroidManifest.xml:75:9
+ADDED from AndroidManifest.xml:76:9
 MERGED from com.adlocus:library:3.5.2:42:9
 	android:enabled
-		ADDED from AndroidManifest.xml:77:13
-	android:process
 		ADDED from AndroidManifest.xml:78:13
+	android:process
+		ADDED from AndroidManifest.xml:79:13
 	android:name
-		ADDED from AndroidManifest.xml:76:13
+		ADDED from AndroidManifest.xml:77:13
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:79:13
+ADDED from AndroidManifest.xml:80:13
 action#android.intent.action.BOOT_COMPLETED
-ADDED from AndroidManifest.xml:80:17
+ADDED from AndroidManifest.xml:81:17
 	android:name
-		ADDED from AndroidManifest.xml:80:25
+		ADDED from AndroidManifest.xml:81:25
 category#android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:82:17
+ADDED from AndroidManifest.xml:83:17
 	android:name
-		ADDED from AndroidManifest.xml:82:27
+		ADDED from AndroidManifest.xml:83:27
 intent-filter#com.adlocus.action.RECEIVE
-ADDED from AndroidManifest.xml:84:13
+ADDED from AndroidManifest.xml:85:13
 action#com.adlocus.action.RECEIVE
-ADDED from AndroidManifest.xml:85:17
+ADDED from AndroidManifest.xml:86:17
 	android:name
-		ADDED from AndroidManifest.xml:85:25
+		ADDED from AndroidManifest.xml:86:25
 activity#com.vpadn.widget.VpadnActivity
-ADDED from AndroidManifest.xml:89:9
+ADDED from AndroidManifest.xml:90:9
 	android:hardwareAccelerated
-		ADDED from AndroidManifest.xml:92:13
-	android:configChanges
-		ADDED from AndroidManifest.xml:91:13
-	android:theme
 		ADDED from AndroidManifest.xml:93:13
-	android:name
-		ADDED from AndroidManifest.xml:90:13
-activity#com.jackpan.TaiwanpetadoptionApp.HeadpageActivity
-ADDED from AndroidManifest.xml:95:9
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:99:13
-	android:label
-		ADDED from AndroidManifest.xml:98:13
-	android:launchMode
-		ADDED from AndroidManifest.xml:100:13
 	android:configChanges
-		ADDED from AndroidManifest.xml:97:13
-	android:name
-		ADDED from AndroidManifest.xml:96:13
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:101:13
-action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:102:17
-	android:name
-		ADDED from AndroidManifest.xml:102:25
-category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:104:17
-	android:name
-		ADDED from AndroidManifest.xml:104:27
-meta-data#com.google.android.gms.version
-ADDED from AndroidManifest.xml:108:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
-	android:value
-		ADDED from AndroidManifest.xml:110:13
-	android:name
-		ADDED from AndroidManifest.xml:109:13
-activity#com.google.android.gms.ads.AdActivity
-ADDED from AndroidManifest.xml:112:9
-MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
-MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
-MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
-MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
-MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
-	android:configChanges
-		ADDED from AndroidManifest.xml:114:13
+		ADDED from AndroidManifest.xml:92:13
 	android:theme
-		ADDED from AndroidManifest.xml:115:13
+		ADDED from AndroidManifest.xml:94:13
 	android:name
-		ADDED from AndroidManifest.xml:113:13
-activity#com.jackpan.TaiwanpetadoptionApp.SpinnerActivity
-ADDED from AndroidManifest.xml:116:9
+		ADDED from AndroidManifest.xml:91:13
+activity#com.jackpan.TaiwanpetadoptionApp.HeadpageActivity
+ADDED from AndroidManifest.xml:96:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:100:13
 	android:label
-		ADDED from AndroidManifest.xml:118:13
-	android:name
-		ADDED from AndroidManifest.xml:117:13
-receiver#com.google.android.gms.analytics.AnalyticsReceiver
-ADDED from AndroidManifest.xml:121:9
-	android:enabled
-		ADDED from AndroidManifest.xml:123:13
-	android:name
-		ADDED from AndroidManifest.xml:122:13
-intent-filter#com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from AndroidManifest.xml:124:13
-action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from AndroidManifest.xml:125:17
-	android:name
-		ADDED from AndroidManifest.xml:125:25
-service#com.google.android.gms.analytics.AnalyticsService
-ADDED from AndroidManifest.xml:129:9
-	android:enabled
-		ADDED from AndroidManifest.xml:131:13
-	android:exported
-		ADDED from AndroidManifest.xml:132:13
-	android:name
-		ADDED from AndroidManifest.xml:130:13
-activity#com.jackpan.TaiwanpetadoptionApp.InAppBillingActivity
-ADDED from AndroidManifest.xml:134:9
-	android:label
-		ADDED from AndroidManifest.xml:136:13
+		ADDED from AndroidManifest.xml:99:13
 	android:launchMode
-		ADDED from AndroidManifest.xml:137:13
+		ADDED from AndroidManifest.xml:101:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:98:13
 	android:name
-		ADDED from AndroidManifest.xml:135:13
-service#com.jackpan.TaiwanpetadoptionApp.MyFirebaseMessagingService
-ADDED from AndroidManifest.xml:139:9
+		ADDED from AndroidManifest.xml:97:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:102:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:103:17
 	android:name
-		ADDED from AndroidManifest.xml:140:13
-intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from AndroidManifest.xml:141:13
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from AndroidManifest.xml:142:17
+		ADDED from AndroidManifest.xml:103:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:105:17
 	android:name
-		ADDED from AndroidManifest.xml:142:25
-service#com.jackpan.TaiwanpetadoptionApp.MyFirebaseInstanceIDService
-ADDED from AndroidManifest.xml:146:9
-	android:name
-		ADDED from AndroidManifest.xml:147:13
-intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from AndroidManifest.xml:148:13
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from AndroidManifest.xml:149:17
-	android:name
-		ADDED from AndroidManifest.xml:149:25
-meta-data#com.facebook.sdk.ApplicationId
-ADDED from AndroidManifest.xml:152:9
+		ADDED from AndroidManifest.xml:105:27
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:109:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
+MERGED from com.google.android.gms:play-services-basement:9.0.0:21:9
 	android:value
-		ADDED from AndroidManifest.xml:152:66
+		ADDED from AndroidManifest.xml:111:13
 	android:name
-		ADDED from AndroidManifest.xml:152:20
-provider#com.facebook.FacebookContentProvider
-ADDED from AndroidManifest.xml:153:9
-	android:authorities
-		ADDED from AndroidManifest.xml:153:19
+		ADDED from AndroidManifest.xml:110:13
+activity#com.google.android.gms.ads.AdActivity
+ADDED from AndroidManifest.xml:113:9
+MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
+MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
+MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
+MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
+MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:26:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:115:13
+	android:theme
+		ADDED from AndroidManifest.xml:116:13
+	android:name
+		ADDED from AndroidManifest.xml:114:13
+activity#com.jackpan.TaiwanpetadoptionApp.SpinnerActivity
+ADDED from AndroidManifest.xml:117:9
+	android:label
+		ADDED from AndroidManifest.xml:119:13
+	android:name
+		ADDED from AndroidManifest.xml:118:13
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from AndroidManifest.xml:122:9
+	android:enabled
+		ADDED from AndroidManifest.xml:124:13
+	android:name
+		ADDED from AndroidManifest.xml:123:13
+intent-filter#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from AndroidManifest.xml:125:13
+action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from AndroidManifest.xml:126:17
+	android:name
+		ADDED from AndroidManifest.xml:126:25
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from AndroidManifest.xml:130:9
+	android:enabled
+		ADDED from AndroidManifest.xml:132:13
 	android:exported
-		ADDED from AndroidManifest.xml:155:13
+		ADDED from AndroidManifest.xml:133:13
 	android:name
-		ADDED from AndroidManifest.xml:154:13
+		ADDED from AndroidManifest.xml:131:13
+activity#com.jackpan.TaiwanpetadoptionApp.InAppBillingActivity
+ADDED from AndroidManifest.xml:135:9
+	android:label
+		ADDED from AndroidManifest.xml:137:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:138:13
+	android:name
+		ADDED from AndroidManifest.xml:136:13
+service#com.jackpan.TaiwanpetadoptionApp.MyFirebaseMessagingService
+ADDED from AndroidManifest.xml:140:9
+	android:name
+		ADDED from AndroidManifest.xml:141:13
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from AndroidManifest.xml:142:13
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from AndroidManifest.xml:143:17
+	android:name
+		ADDED from AndroidManifest.xml:143:25
+service#com.jackpan.TaiwanpetadoptionApp.MyFirebaseInstanceIDService
+ADDED from AndroidManifest.xml:147:9
+	android:name
+		ADDED from AndroidManifest.xml:148:13
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from AndroidManifest.xml:149:13
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from AndroidManifest.xml:150:17
+	android:name
+		ADDED from AndroidManifest.xml:150:25
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from AndroidManifest.xml:153:9
+	android:value
+		ADDED from AndroidManifest.xml:153:66
+	android:name
+		ADDED from AndroidManifest.xml:153:20
+provider#com.facebook.FacebookContentProvider
+ADDED from AndroidManifest.xml:154:9
+	android:authorities
+		ADDED from AndroidManifest.xml:154:19
+	android:exported
+		ADDED from AndroidManifest.xml:156:13
+	android:name
+		ADDED from AndroidManifest.xml:155:13
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
 ADDED from com.google.android.gms:play-services-ads-lite:9.0.0:30:9
 MERGED from com.google.android.gms:play-services-ads-lite:9.0.0:30:9
@@ -17273,8 +17050,6 @@ MERGED from com.google.firebase:firebase-common:9.0.0:7:9
 MERGED from com.google.firebase:firebase-common:9.0.0:7:9
 MERGED from com.google.firebase:firebase-common:9.0.0:7:9
 MERGED from com.google.firebase:firebase-common:9.0.0:7:9
-MERGED from com.google.firebase:firebase-common:9.0.0:7:9
-MERGED from com.google.firebase:firebase-common:9.0.0:7:9
 	android:authorities
 		ADDED from com.google.firebase:firebase-common:9.0.0:8:13
 	android:exported
@@ -17322,7 +17097,6 @@ MERGED from com.google.firebase:firebase-iid:9.0.0:23:5
 MERGED from com.google.android.gms:play-services-gcm:9.0.0:21:5
 MERGED from com.google.android.gms:play-services-iid:9.0.0:21:5
 MERGED from com.google.android.gms:play-services-iid:9.0.0:21:5
-MERGED from com.google.firebase:firebase-iid:9.0.0:23:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:23:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:23:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:23:5
@@ -17393,7 +17167,6 @@ MERGED from com.google.firebase:firebase-iid:9.0.0:32:9
 MERGED from com.google.firebase:firebase-iid:9.0.0:32:9
 MERGED from com.google.firebase:firebase-iid:9.0.0:32:9
 MERGED from com.google.firebase:firebase-iid:9.0.0:32:9
-MERGED from com.google.firebase:firebase-iid:9.0.0:32:9
 	android:exported
 		ADDED from com.google.firebase:firebase-iid:9.0.0:34:13
 	android:permission
@@ -17426,14 +17199,12 @@ MERGED from com.google.firebase:firebase-iid:9.0.0:45:9
 MERGED from com.google.firebase:firebase-iid:9.0.0:45:9
 MERGED from com.google.firebase:firebase-iid:9.0.0:45:9
 MERGED from com.google.firebase:firebase-iid:9.0.0:45:9
-MERGED from com.google.firebase:firebase-iid:9.0.0:45:9
 	android:exported
 		ADDED from com.google.firebase:firebase-iid:9.0.0:47:13
 	android:name
 		ADDED from com.google.firebase:firebase-iid:9.0.0:46:13
 service#com.google.firebase.iid.FirebaseInstanceIdService
 ADDED from com.google.firebase:firebase-iid:9.0.0:51:9
-MERGED from com.google.firebase:firebase-iid:9.0.0:51:9
 MERGED from com.google.firebase:firebase-iid:9.0.0:51:9
 MERGED from com.google.firebase:firebase-iid:9.0.0:51:9
 MERGED from com.google.firebase:firebase-iid:9.0.0:51:9
@@ -17471,9 +17242,7 @@ MERGED from com.google.firebase:firebase-iid:9.0.0:25:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:25:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:25:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:25:5
-MERGED from com.google.firebase:firebase-iid:9.0.0:25:5
 uses-permission#com.jackpan.TaiwanpetadoptionApp.permission.C2D_MESSAGE
-MERGED from com.google.firebase:firebase-iid:9.0.0:28:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:28:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:28:5
 MERGED from com.google.firebase:firebase-iid:9.0.0:28:5
@@ -17530,7 +17299,6 @@ MERGED from com.google.firebase:firebase-analytics-impl:9.0.0:36:7
 		ADDED from com.google.firebase:firebase-analytics:9.0.0:37:11
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from com.google.firebase:firebase-messaging:9.0.0:24:9
-MERGED from com.google.firebase:firebase-messaging:9.0.0:24:9
 	android:exported
 		ADDED from com.google.firebase:firebase-messaging:9.0.0:26:13
 	android:name
