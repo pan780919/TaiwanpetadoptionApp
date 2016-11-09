@@ -22,10 +22,13 @@ import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
 import com.facebook.share.Sharer;
+import com.facebook.share.model.AppInviteContent;
 import com.facebook.share.model.ShareLinkContent;
 import com.facebook.share.model.SharePhoto;
 import com.facebook.share.model.SharePhotoContent;
+import com.facebook.share.widget.AppInviteDialog;
 import com.facebook.share.widget.ShareDialog;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -53,7 +56,7 @@ public class TwoActivity extends Activity {
 	private Bitmap bitmap=null;
 	private InterstitialAd interstitial;
 	private 	AdView mAdView;
-	private  Button mShareBtn;
+	private  Button mShareBtn,mInViteBtn;
 	CallbackManager callbackManager;
 	ShareDialog shareDialog;
 	@Override
@@ -70,7 +73,9 @@ public class TwoActivity extends Activity {
 		checkBuyAd();
 		initLayout();
 		loadIntent();
+
 		FacebookSdk.sdkInitialize(getApplicationContext());
+		AppEventsLogger.activateApp(this);
 		callbackManager = CallbackManager.Factory.create();
 		shareDialog = new ShareDialog(this);
 		// this part is optional
@@ -111,7 +116,7 @@ public class TwoActivity extends Activity {
 
 		MyGAManager.sendScreenName(this,"資料頁面");
 		mShareBtn = (Button) findViewById(R.id.b_button_share);
-
+		mInViteBtn = (Button) findViewById(R.id.b_button_invite);
 		textview = (TextView) findViewById(R.id.textView1);
 		textview2 = (TextView) findViewById(R.id.textView2);
 		textview3 = (TextView) findViewById(R.id.textView3);
@@ -133,7 +138,12 @@ public class TwoActivity extends Activity {
 		textview19= (TextView) findViewById(R.id.textView19);
 		textview20= (TextView) findViewById(R.id.textView20);
 		img = (ImageView) findViewById(R.id.pageimg);
-
+		mInViteBtn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				inViteFriend();
+			}
+		});
 	}
 
 	private void loadIntent() {
@@ -343,5 +353,18 @@ public class TwoActivity extends Activity {
 		super.onActivityResult(requestCode, resultCode, data);
 		callbackManager.onActivityResult(requestCode, resultCode, data);
 	}
+	private void inViteFriend(){
+		String appLinkUrl, previewImageUrl;
 
+		appLinkUrl = "https://play.google.com/store/apps/details?id=com.jackpan.TaipeiZoo";
+		previewImageUrl = "https://lh3.googleusercontent.com/2TPsyspPyf6WOYUEjduISOrg0HZH_xqtwa0G5LJsclL-knggHE0-KdbisjutLpr7lo8=w300-rw";
+
+		if (AppInviteDialog.canShow()) {
+			AppInviteContent content = new AppInviteContent.Builder()
+					.setApplinkUrl(appLinkUrl)
+					.setPreviewImageUrl(previewImageUrl)
+					.build();
+			AppInviteDialog.show(this, content);
+		}
+	}
 }

@@ -104,40 +104,7 @@ public class MainActivity extends Activity {
 		}else {
 			PushAd.disablePush(MainActivity.this);
 		}
-		FirebaseMessaging.getInstance().subscribeToTopic("news");
 
-
-		mDatabase = FirebaseDatabase.getInstance().getReference();
-		final String userId = "123456";
-		mDatabase.child("users").child(userId).addListenerForSingleValueEvent(
-				new ValueEventListener() {
-					@Override
-					public void onDataChange(DataSnapshot dataSnapshot) {
-						// Get user value
-						User user = dataSnapshot.getValue(User.class);
-
-						// [START_EXCLUDE]
-						if (user == null) {
-							// User is null, error out
-							Log.e("Jack", "User " + userId + " is unexpectedly null");
-							Toast.makeText(MainActivity.this,
-									"Error: could not fetch user.",
-									Toast.LENGTH_SHORT).show();
-						} else {
-							// Write new post
-							writeNewPost(userId, user.username, "name", "message");
-						}
-
-						// Finish this Activity, back to the stream
-						finish();
-						// [END_EXCLUDE]
-					}
-
-					@Override
-					public void onCancelled(DatabaseError databaseError) {
-						Log.d("Jack", "getUser:onCancelled", databaseError.toException());
-					}
-				});
 
 //		PushAd.test(this);
 //		AdView mAdView = (AdView) findViewById(R.id.adView);
@@ -196,19 +163,7 @@ public class MainActivity extends Activity {
 		adView.loadAd();
 		}
 
-	private void writeNewPost(String userId, String username, String title, String body) {
-		// Create new post at /user-posts/$userid/$postid and at
-		// /posts/$postid simultaneously
-		String key = mDatabase.child("posts").push().getKey();
-		Post post = new Post(userId, username, title, body);
-		Map<String, Object> postValues = post.toMap();
 
-		Map<String, Object> childUpdates = new HashMap<>();
-		childUpdates.put("/posts/" + key, postValues);
-		childUpdates.put("/user-posts/" + userId + "/" + key, postValues);
-
-		mDatabase.updateChildren(childUpdates);
-	}
 
 	private class LoadNetAsyncTask extends AsyncTask<String, Void, ArrayList<ResultData>> {
 
@@ -546,21 +501,6 @@ public class MainActivity extends Activity {
 
 	}
 
-	public class User {
-
-		public String username;
-		public String email;
-
-		public User() {
-			// Default constructor required for calls to DataSnapshot.getValue(User.class)
-		}
-
-		public User(String username, String email) {
-			this.username = username;
-			this.email = email;
-		}
-
-	}
 	@Override
 	protected void onDestroy() {
 		adView.destroy();
