@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.PixelFormat;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationManager;
@@ -96,6 +97,7 @@ public class MainActivity extends Activity implements android.location.LocationL
 		super.onCreate(savedInstanceState);
 		// //開啟全螢幕
 		// getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+		getWindow().setFormat(PixelFormat.TRANSPARENT);
 		// WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		// //設定隱藏APP標題
 		// requestWindowFeature(Window.FEATURE_NO_TITLE);

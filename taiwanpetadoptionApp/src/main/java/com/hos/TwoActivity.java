@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
@@ -15,7 +16,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.adbert.AdbertListener;
+import com.adbert.AdbertLoopADView;
+import com.adbert.AdbertOrientation;
+import com.adbert.ExpandVideoPosition;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.jackpan.TaiwanpetadoptionApp.R;
@@ -43,6 +49,8 @@ public class TwoActivity extends Activity {
 	private Button googlbtn;
 	private ResultData data;
 	private boolean isThread = true;
+	AdbertLoopADView adbertView;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -51,7 +59,7 @@ public class TwoActivity extends Activity {
 		 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		 //設定隱藏APP標題
 		 requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.activity_two);
+		setContentView(R.layout.activity_two_2);
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		textview = (TextView) findViewById(R.id.textView1);
 		textview2 = (TextView) findViewById(R.id.textView2);
@@ -109,16 +117,17 @@ public class TwoActivity extends Activity {
 		textview26.setVisibility(View.GONE);
 		img = (ImageView) findViewById(R.id.pageimg);
 		img.setVisibility(View.GONE);
-	
-		AdView mAdView = (AdView) findViewById(R.id.adView);
-		AdRequest adRequest = new AdRequest.Builder().build();
-		mAdView.loadAd(adRequest);
+		setAdBert();
+//		AdView mAdView = (AdView) findViewById(R.id.adView);
+//		AdRequest adRequest = new AdRequest.Builder().build();
+//		mAdView.loadAd(adRequest);
 //			loadIntent();
 //		LoadNetAsyncTask loadNetAsyncTask2 = new LoadNetAsyncTask();
 //		loadNetAsyncTask2.execute(MyAdKey.jsondata2);
 	
 		interstitial = new InterstitialAd(this);
 		interstitial.setAdUnitId(MyAdKey.AdmobinterstitialBannerId);
+		AdRequest adRequest = new AdRequest.Builder().build();
 		interstitial.loadAd(adRequest);
 		
 
@@ -218,12 +227,15 @@ public class TwoActivity extends Activity {
 	protected void onPause() {
 				super.onPause();
 				isThread=false;
+		adbertView.pause();
 	}
 
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
-		
+		adbertView.destroy();
+
+
 	}
 	
 
@@ -231,6 +243,7 @@ public class TwoActivity extends Activity {
 	protected void onResume() {
 		interstitial.show();
 		super.onResume();
+		adbertView.resume();
 	}
 
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -446,5 +459,26 @@ public class TwoActivity extends Activity {
 //		}
 //
 //	}
-	 
+		private static final String TAG = "TwoActivity";
+	 private  void setAdBert(){
+
+		 adbertView = (AdbertLoopADView)findViewById(R.id.adbertADView);
+		 adbertView.setMode(AdbertOrientation. NORMAL);
+		 adbertView.setExpandVideo(ExpandVideoPosition.BOTTOM);
+		 adbertView.setFullScreen(false);
+		 adbertView.setBannerSize(AdSize.BANNER);
+		 adbertView.setAPPID("20161111000002", "5a73897de2c53f95333b6ddaf23639c7");
+		 adbertView.setListener(new AdbertListener() {
+			 @Override
+			 public void onReceive(String msg) {
+				 Log.d(TAG, "onReceive: "+msg);
+			 }
+			 @Override
+			 public void onFailedReceive(String msg) {
+				 Log.d(TAG, "onFailedReceive: "+msg);
+
+			 }
+		 });
+		 adbertView.start();
+	 }
 }
