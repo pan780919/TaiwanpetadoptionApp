@@ -6,20 +6,26 @@ import android.app.ProgressDialog;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.adbert.AdbertListener;
 import com.adbert.AdbertLoopADView;
 import com.adbert.AdbertOrientation;
 import com.adbert.ExpandVideoPosition;
+import com.adlocus.Ad;
+import com.adlocus.AdListener;
+import com.adlocus.AdLocusLayout;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
@@ -50,7 +56,7 @@ public class TwoActivity extends Activity {
 	private ResultData data;
 	private boolean isThread = true;
 	AdbertLoopADView adbertView;
-
+	private LinearLayout mLayoutMain = null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -129,7 +135,7 @@ public class TwoActivity extends Activity {
 		interstitial.setAdUnitId(MyAdKey.AdmobinterstitialBannerId);
 		AdRequest adRequest = new AdRequest.Builder().build();
 		interstitial.loadAd(adRequest);
-		
+//		startAdLocus();
 
 	}
 
@@ -481,4 +487,32 @@ public class TwoActivity extends Activity {
 		 });
 		 adbertView.start();
 	 }
+	private void startAdLocus() {
+		AdLocusLayout adlocusLayout = new AdLocusLayout(this, AdLocusLayout.AD_SIZE_BANNER, "7fd30836d67285c1023c79740d4832a5688bdc6b", 15);
+		// 設定輪播時間，最低 15 秒，-1 為不輪播只顯示一則
+		// 設定輪播動畫，預設為淡入，範例設定為隨機動畫
+		adlocusLayout.setTransitionAnimation(AdLocusLayout.ANIMATION_RANDOM);
+		LinearLayout.LayoutParams adlocusLayoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+		// 設定置中
+		adlocusLayoutParams.gravity = Gravity.CENTER;
+		// 加入到你的 layout 中
+		mLayoutMain = (LinearLayout) findViewById(R.id.mylayout);
+		mLayoutMain.addView(adlocusLayout, adlocusLayoutParams);
+		mLayoutMain.setGravity(Gravity.CENTER_HORIZONTAL);
+		mLayoutMain.invalidate();
+		adlocusLayout.setListener(new AdListener() {
+			@Override
+			public void onReceiveAd(Ad ad) {
+				Log.d(TAG, "onReceiveAd: "+ad.toString());
+
+			}
+
+			@Override
+			public void onFailedToReceiveAd(Ad ad, AdLocusLayout.ErrorCode errorCode) {
+				Log.d(TAG, "onReceiveAd: "+errorCode);
+			}
+
+
+		});
+	}
 }

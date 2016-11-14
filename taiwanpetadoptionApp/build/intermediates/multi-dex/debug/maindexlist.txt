@@ -264,6 +264,7 @@ android/support/annotation/BoolRes.class
 vpadn/al.class
 com/google/android/gms/location/internal/LocationRequestInternal.class
 com/google/android/gms/ads/AdActivity.class
+com/adlocus/Ad.class
 com/google/ads/mediation/customevent/CustomEventServerParameters.class
 com/facebook/FacebookActivity.class
 vpadn/P.class
@@ -428,6 +429,7 @@ android/support/v7/appcompat/R.class
 com/google/android/gms/internal/zzkp.class
 com/google/android/gms/iid/zzb$zza.class
 com/facebook/ads/AdView.class
+com/adlocus/AdLocusLayout.class
 com/google/android/gms/dynamic/zzd.class
 com/vpadn/widget/VpadnActivity$13.class
 android/support/annotation/InterpolatorRes.class
@@ -598,6 +600,7 @@ com/vpadn/widget/VpadnActivity$15.class
 com/jackpan/TaiwanpetadoptionApp/R$id.class
 vpadn/at.class
 com/google/android/gms/internal/zzle$zza.class
+com/adlocus/AdListener.class
 com/google/android/gms/internal/zzakh.class
 com/google/android/gms/analytics/internal/zzae.class
 com/google/android/gms/internal/zzbv.class
@@ -890,6 +893,7 @@ com/google/android/gms/common/api/Api.class
 com/vpadn/ads/VpadnAdRequest.class
 com/google/android/gms/plus/People.class
 com/google/android/gms/fitness/data/DataType.class
+com/hos/TwoActivity$3.class
 com/google/android/gms/ads/internal/purchase/GInAppPurchaseManagerInfoParcel.class
 com/bumptech/glide/load/MultiTransformation.class
 android/support/v4/view/ViewCompat$JbMr2ViewCompatImpl.class
