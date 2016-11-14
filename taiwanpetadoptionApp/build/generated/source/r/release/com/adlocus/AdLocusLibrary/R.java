@@ -139,20 +139,20 @@ public final class R {
 		public static final int sl_bigview_btn_bg = 0x7f02015c;
 	}
 	public static final class id {
-		public static final int ProMe_NotificationClickIcon = 0x7f0c012a;
-		public static final int ProMe_NotificationIcon = 0x7f0c0128;
-		public static final int ProMe_NotificationImage = 0x7f0c0127;
-		public static final int ProMe_NotificationLayout = 0x7f0c0126;
-		public static final int ProMe_NotificationLogo = 0x7f0c012b;
-		public static final int ProMe_NotificationText = 0x7f0c0129;
-		public static final int b_button_look = 0x7f0c00dc;
-		public static final int b_button_setting = 0x7f0c00db;
+		public static final int ProMe_NotificationClickIcon = 0x7f0c012b;
+		public static final int ProMe_NotificationIcon = 0x7f0c0129;
+		public static final int ProMe_NotificationImage = 0x7f0c0128;
+		public static final int ProMe_NotificationLayout = 0x7f0c0127;
+		public static final int ProMe_NotificationLogo = 0x7f0c012c;
+		public static final int ProMe_NotificationText = 0x7f0c012a;
+		public static final int b_button_look = 0x7f0c00dd;
+		public static final int b_button_setting = 0x7f0c00dc;
 		public static final int b_button_share = 0x7f0c00b2;
-		public static final int b_content = 0x7f0c00d9;
-		public static final int b_imageview_bigimage = 0x7f0c00da;
-		public static final int b_imageview_icon = 0x7f0c00d6;
-		public static final int b_textview_subtitle = 0x7f0c00d8;
-		public static final int b_textview_title = 0x7f0c00d7;
+		public static final int b_content = 0x7f0c00da;
+		public static final int b_imageview_bigimage = 0x7f0c00db;
+		public static final int b_imageview_icon = 0x7f0c00d7;
+		public static final int b_textview_subtitle = 0x7f0c00d9;
+		public static final int b_textview_title = 0x7f0c00d8;
 	}
 	public static final class layout {
 		public static final int bv_basic = 0x7f040023;

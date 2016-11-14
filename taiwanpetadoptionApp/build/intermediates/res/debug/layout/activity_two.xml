@@ -39,7 +39,14 @@
                            >
 
                        </Button>
-                
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b_button_invite"
+                    android:text="邀請朋友來使用"
+                    >
+
+                </Button>
                   <View
                     android:id="@+id/view"
                     android:layout_width="wrap_content"
