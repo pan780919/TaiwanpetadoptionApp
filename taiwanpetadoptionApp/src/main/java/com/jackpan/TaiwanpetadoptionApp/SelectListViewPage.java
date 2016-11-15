@@ -21,7 +21,7 @@ import com.google.android.gms.ads.AdSize;
 
 public class SelectListViewPage extends Activity {
     private ListView mListView;
-    private String[] name = {"認養動物資訊","動物醫院資訊"};
+    private String[] name = {"認養動物資訊","動物醫院資訊","贊助開發者"};
     private ArrayAdapter<String> listAdapter;
     AdbertLoopADView adbertView;
     Context context;
@@ -53,6 +53,11 @@ public class SelectListViewPage extends Activity {
                          Intent b = new Intent();
                          b.setClass(context, com.hos.MainActivity.class);
                          startActivity(b);
+                         break;
+                     case 2:
+                         Intent iap = new Intent();
+                         iap.setClass(context,InAppBillingActivity.class);
+                         startActivity(iap);
                          break;
 
                  }

@@ -246,7 +246,7 @@ public class TwoActivity extends Activity {
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 
 		if ((keyCode == KeyEvent.KEYCODE_BACK)) { // 確定按下退出鍵
-
+			adbertInterstitialAD.show();
 			this.finish();
 			return true;
 

@@ -24,6 +24,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.adlocus.PushAd;
 import com.facebook.FacebookSdk;
 import com.facebook.applinks.AppLinkData;
 import com.google.android.gms.common.ConnectionResult;
@@ -39,6 +40,7 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import Appkey.MyAdKey;
 import bolts.AppLinks;
 
 
@@ -80,6 +82,14 @@ public class HeadpageActivity extends Activity implements
 						}
 					});
 		}
+		boolean isbuy =MySharedPrefernces.getIsBuyed(this);
+		if (isbuy){
+			Intent promotionIntent = new Intent(this, HeadpageActivity.class);
+			PushAd.enablePush(this, MyAdKey.AdLoucskey, promotionIntent);
+		}else {
+			PushAd.disablePush(HeadpageActivity.this);
+		}
+
 		ConnectivityManager conManager = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
 		NetworkInfo networInfo = conManager.getActiveNetworkInfo();
 

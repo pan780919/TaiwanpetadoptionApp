@@ -97,13 +97,6 @@ public class MainActivity extends Activity {
 		});
 		
 		
-		boolean isbuy =MySharedPrefernces.getIsBuyed(this);
-		if (isbuy){
-			Intent promotionIntent = new Intent(this, MainActivity.class);
-			PushAd.enablePush(this, MyAdKey.AdLoucskey, promotionIntent);
-		}else {
-			PushAd.disablePush(MainActivity.this);
-		}
 
 
 //		PushAd.test(this);
