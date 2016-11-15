@@ -229,7 +229,7 @@ public class HeadpageActivity extends Activity implements
 					try {
 						sleep(1000);
 						Intent intent = new Intent();
-						intent.setClass(HeadpageActivity.this, MainActivity.class);// Testone跳到Testtwo這個Activity
+						intent.setClass(HeadpageActivity.this, SelectListViewPage.class);// Testone跳到Testtwo這個Activity
 						startActivity(intent);
 						finish();
 					} catch (Exception e) {

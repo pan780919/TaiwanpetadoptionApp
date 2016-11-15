@@ -54,5 +54,6 @@ dependencies {
     //    compile 'com.google.firebase:firebase-auth:9.0.2'
     //    compile 'com.google.firebase:firebase-database:9.0.0'
     compile files('libs/adbert-sdk-2.2.6n.jar')
+    compile files('libs/adbert-sdk-tracking-1.0.2.jar')
 }
 apply plugin: 'com.google.gms.google-services'

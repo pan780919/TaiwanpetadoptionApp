@@ -19,6 +19,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="28759519-a6ef-48f6-bf9b-687375d53966" name="Default" comment="" />
+=======
     <list default="true" id="28759519-a6ef-48f6-bf9b-687375d53966" name="Default" comment="">
 <<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
@@ -1898,6 +1901,7 @@
 >>>>>>> origin/hyxen
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+>>>>>>> origin/hyxen
     <ignored path="TaiwanpetadoptionApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -28,13 +28,27 @@
 				    android:layout_height="match_parent"
 				    android:src="@drawable/nophoto"
 				
-				    ></ImageView>               
-         
-                
-                  <View
-                    android:id="@+id/view"
+				    ></ImageView>
+                <com.adbert.AdbertNativeADView
+                    android:id="@+id/native_root"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp" />
+                    android:layout_height="wrap_content">
+                    <TextView android:id="@+id/headline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView android:layout_below="@+id/headline" android:id="@+id/company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/desc" android:layout_below="@id/company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView android:id="@+id/icon" android:layout_below="@+id/desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView android:id="@+id/image" android:layout_below="@+id/icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </com.adbert.AdbertNativeADView>
                 <TextView
                     android:id="@+id/textView1"
                     android:layout_width="wrap_content"
@@ -338,7 +352,8 @@
     <!--</com.google.android.gms.ads.AdView>-->
     <com.adbert.AdbertLoopADView
         android:id="@+id/adbertADView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
     </com.adbert.AdbertLoopADView>
 </LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/src/main/res/layout/activity_two_2.xml -->

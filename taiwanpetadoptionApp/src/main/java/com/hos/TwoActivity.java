@@ -19,9 +19,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.adbert.AdbertInterstitialAD;
 import com.adbert.AdbertListener;
 import com.adbert.AdbertLoopADView;
+import com.adbert.AdbertNativeAD;
+import com.adbert.AdbertNativeADListener;
+import com.adbert.AdbertNativeADView;
 import com.adbert.AdbertOrientation;
+import com.adbert.AdbertTrace;
 import com.adbert.ExpandVideoPosition;
 import com.adlocus.Ad;
 import com.adlocus.AdListener;
@@ -30,8 +35,12 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.gson.Gson;
 import com.jackpan.TaiwanpetadoptionApp.R;
 
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import Appkey.MyAdKey;
 
@@ -57,6 +66,8 @@ public class TwoActivity extends Activity {
 	private boolean isThread = true;
 	AdbertLoopADView adbertView;
 	private LinearLayout mLayoutMain = null;
+	AdbertInterstitialAD adbertInterstitialAD;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -96,13 +107,13 @@ public class TwoActivity extends Activity {
 		textview25 = (TextView) findViewById(R.id.textView25);
 		textview26 = (TextView) findViewById(R.id.textView26);
 		googlbtn = (Button) findViewById(R.id.button1);
-//		googlbtn.setVisibility(View.GONE);
+		googlbtn.setVisibility(View.GONE);
 //		 textview4.setVisibility(View.GONE);
 //		 textview5.setVisibility(View.GONE);
 //		 textview6.setVisibility(View.GONE);
 //		 textview7.setVisibility(View.GONE);
-		 textview8.setVisibility(View.GONE);
-		 textview81.setVisibility(View.GONE);
+//		 textview8.setVisibility(View.GONE);
+//		 textview81.setVisibility(View.GONE);
 		 textview9.setVisibility(View.GONE);
 		 textview10.setVisibility(View.GONE);
 		 textview11.setVisibility(View.GONE);
@@ -127,112 +138,92 @@ public class TwoActivity extends Activity {
 //		AdView mAdView = (AdView) findViewById(R.id.adView);
 //		AdRequest adRequest = new AdRequest.Builder().build();
 //		mAdView.loadAd(adRequest);
-//			loadIntent();
+			loadIntent();
 //		LoadNetAsyncTask loadNetAsyncTask2 = new LoadNetAsyncTask();
 //		loadNetAsyncTask2.execute(MyAdKey.jsondata2);
-	
+
 		interstitial = new InterstitialAd(this);
 		interstitial.setAdUnitId(MyAdKey.AdmobinterstitialBannerId);
 		AdRequest adRequest = new AdRequest.Builder().build();
 		interstitial.loadAd(adRequest);
+
 //		startAdLocus();
+
 
 	}
 
-//	private void loadIntent() {
-//		String json = getIntent().getStringExtra("json");
-//		final String lat = getIntent().getStringExtra("Latitude");
-//		final String lon = getIntent().getStringExtra	("Longitude");
-////		final String latList = getIntent().getStringExtra("latList");
-////		final double latList = getIntent().getDoubleExtra("latList", 0);
-//////		final String lonList = getIntent().getStringExtra("lonList");
-////		final double lonList = getIntent().getDoubleExtra("lonList", 0);
+	private void loadIntent() {
+		String json = getIntent().getStringExtra("json");
+		final String lat = getIntent().getStringExtra("Latitude");
+		final String lon = getIntent().getStringExtra	("Longitude");
+//		final String latList = getIntent().getStringExtra("latList");
+//		final double latList = getIntent().getDoubleExtra("latList", 0);
+////		final String lonList = getIntent().getStringExtra("lonList");
+//		final double lonList = getIntent().getDoubleExtra("lonList", 0);
+
+//		Log.e("Jack","lat"+Double.parseDouble(latList)+""+"lon"+Double.parseDouble(lonList));
+		 data = new Gson().fromJson(json, ResultData.class);
+		// loadImage(data.album_file, img);
 //
-////		Log.e("Jack","lat"+Double.parseDouble(latList)+""+"lon"+Double.parseDouble(lonList));
-//		 data = new Gson().fromJson(json, ResultData.class);
-//		// loadImage(data.album_file, img);
-////
-//		textview.setText("流水號:" + data.CHR_ID);
-//		textview2.setText("教堂名稱:" + data.CHR_Name);
+		textview.setText("字號:" + data.字號);
+		textview2.setText("名稱:" + data.機構名稱);
+
+
+
+
+		textview3.setText("所在縣市:" + data.縣市);
+		textview4.setText("負責獸醫:" + data.負責獸醫);
+		textview5.setText("執照類別:" + data.執照類別);
+
+		textview6.setText("電話:" + data.機構電話);
+
+		textview7.setText("機構地址:" + data.機構地址);
+		textview8.setText("狀態:" + data.狀態);
+		textview81.setText("發照日期 :" + data.發照日期);
+//		textview9.setText("停車場（腳踏車）總車架數 :" + data.TOTALBIKE);
+//		textview10.setText("停車場收費資訊:" + data.PAYEX);
+//		if(data.TEL.equals("")) textview11.setVisibility(View.GONE);
+//		textview11.setText("停車場電話:" + data.TEL);
+//		textview11.setTextSize(24);
+//		textview11.setTextColor(Color.RED);
 //
-//
-//
-//
-//		textview3.setText("所在區域:" + data.CHR_Area);
-//		textview4.setText("地址:" + data.CHR_Address);
-//		textview5.setText("負責人:" + data.CHR_Charge);
-//
-//		textview6.setText("電話:" + data.CHR_Phone);
-//		textview6.setTextColor(Color.RED);
-//		textview6.setTextSize(24);
-//
-//		textview6.setOnClickListener(new OnClickListener() {
-//
-//			@Override
-//			public void onClick(View v) {
-//				if(data.CHR_Phone.equals("")) {
-//					Toast.makeText(getApplicationContext(), "無電話資訊！！", Toast.LENGTH_SHORT).show();
-//					return;
-//				}
-//				 Intent myIntentDial = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+data.CHR_Phone));
-//			      startActivity(myIntentDial);
-//
-//			}
-//		});
-//
-//		textview7.setText("建造日期:" + data.CHR_BuildTime);
-//
-////		textview9.setText("停車場（腳踏車）總車架數 :" + data.TOTALBIKE);
-////		textview10.setText("停車場收費資訊:" + data.PAYEX);
-////		if(data.TEL.equals("")) textview11.setVisibility(View.GONE);
-////		textview11.setText("停車場電話:" + data.TEL);
-////		textview11.setTextSize(24);
-////		textview11.setTextColor(Color.RED);
-////
-////		textview11.setOnClickListener(new OnClickListener() {
-////
-////			@Override
-////			public void onClick(View v) {
-////
-////			        Intent myIntentDial = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+data.TEL));
-////			        startActivity(myIntentDial);
-////
-////			}
-////		});
-////		MyApi.cal_TWD97_To_lonlat(Double.parseDouble(data.TW97X), Double.parseDouble(data.TW97Y));
-//////
-////
-//////        boolean isGpsOpen = MySharedPreferences.getIsGPSState(TwoActivity.this);
-//////
-//		MyApi.mGecoder(getApplicationContext(), data.CHR_Address);
-//        googlbtn.setOnClickListener(new OnClickListener() {
+//		textview11.setOnClickListener(new OnClickListener() {
 //
 //			@Override
 //			public void onClick(View v) {
-//				// TODO Auto-generated method stub
-//				   String startLat =lat;
-//	                String startLng = lon;
-//	                String endLat = String.valueOf(MyApi.getGeocoderlat());
-//	                String endLng = String.valueOf(MyApi.getGeocoderlon());
-//	                Uri uri = Uri.parse("http://maps.google.com/maps? f=d&saddr=" + startLat + "%20" + startLng + "&daddr=" + endLat + "%20" + endLng + "&hl=tw");
-//	                Intent it = new Intent(Intent.ACTION_VIEW, uri);
-//	                startActivity(it);
+//
+//			        Intent myIntentDial = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+data.TEL));
+//			        startActivity(myIntentDial);
+//
 //			}
 //		});
-//
-//
-////
+//		MyApi.cal_TWD97_To_lonlat(Double.parseDouble(data.TW97X), Double.parseDouble(data.TW97Y));
 ////
 //
+////        boolean isGpsOpen = MySharedPreferences.getIsGPSState(TwoActivity.this);
+//		googlbtn.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//
+//			}
+//		});
+//////
+//		MyApi.mGecoder(getApplicationContext(), data.機構地址);
+
+
+
+
 //
 //
-//
-//	}
+
+
+
+
+	}
 	
 	@Override
 	protected void onPause() {
 				super.onPause();
-				isThread=false;
 		adbertView.pause();
 	}
 
@@ -240,7 +231,7 @@ public class TwoActivity extends Activity {
 	protected void onDestroy() {
 		super.onDestroy();
 		adbertView.destroy();
-
+		adbertInterstitialAD.destroy();
 
 	}
 	
@@ -255,8 +246,7 @@ public class TwoActivity extends Activity {
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 
 		if ((keyCode == KeyEvent.KEYCODE_BACK)) { // 確定按下退出鍵
-			
-			isThread=false;
+
 			this.finish();
 			return true;
 
@@ -467,9 +457,8 @@ public class TwoActivity extends Activity {
 //	}
 		private static final String TAG = "TwoActivity";
 	 private  void setAdBert(){
-
 		 adbertView = (AdbertLoopADView)findViewById(R.id.adbertADView);
-		 adbertView.setMode(AdbertOrientation. NORMAL);
+		 adbertView.setMode(AdbertOrientation.NORMAL);
 		 adbertView.setExpandVideo(ExpandVideoPosition.BOTTOM);
 		 adbertView.setFullScreen(false);
 		 adbertView.setBannerSize(AdSize.BANNER);
@@ -477,15 +466,82 @@ public class TwoActivity extends Activity {
 		 adbertView.setListener(new AdbertListener() {
 			 @Override
 			 public void onReceive(String msg) {
-				 Log.d(TAG, "onReceive: "+msg);
+				 Log.d(TAG, "onReceive: " + msg);
 			 }
+
 			 @Override
 			 public void onFailedReceive(String msg) {
-				 Log.d(TAG, "onFailedReceive: "+msg);
+				 Log.d(TAG, "onFailedReceive: " + msg);
 
 			 }
 		 });
 		 adbertView.start();
+
+
+		 //建立插頁式廣告
+		 adbertInterstitialAD = new AdbertInterstitialAD(this);
+
+		 //設定appId與appKey，請跟艾普特申請。
+		 adbertInterstitialAD.setAPPID("20161111000002", "5a73897de2c53f95333b6ddaf23639c7");
+
+		 //設定廣告載入成功或失敗的Listener
+		 adbertInterstitialAD.setListener(new AdbertListener() {
+			 @Override
+			 public void onReceive(String arg0) {
+
+			 }
+
+			 @Override
+			 public void onFailedReceive(String arg0) {
+
+			 }
+		 });
+
+		 //開始載入廣告
+		 adbertInterstitialAD.loadAd();
+//
+//		 final AdbertNativeAD nativeAD = new AdbertNativeAD(this,  "20161111000002", "5a73897de2c53f95333b6ddaf23639c7");
+//
+//// 定義視覺呈現的AdbertNativeADView
+//		 final AdbertNativeADView nativeContainer =  new AdbertNativeADView(getBaseContext());
+//// 方式一, 以程式方式產生
+//
+//		 nativeAD.setListener(new AdbertNativeADListener() {
+//
+//			 @Override
+//			 public void onReceived(String arg0) {
+//				 if (nativeAD.isReady()) {
+//
+//					 try {
+//						 TextView headline =(TextView)findViewById(R.id.headline);
+//						 JSONObject jsonObject = nativeAD.getData();
+//						 Log.d(TAG, "onReceived: "+jsonObject.toString());
+//						 headline.setText((String)jsonObject.getString("headline"));
+//
+//						 String desc = (String)jsonObject.getString("desc");
+//						 String companyName = (String) jsonObject.getString("companyName");
+//						 String image = (String)jsonObject.getString("image");
+//						 String icon = (String)jsonObject.getString("icon");
+//					 } catch (JSONException e) {
+//						 e.printStackTrace();
+//					 }
+//				// 利用此處所取得的資料進行廣告素材的載入
+//					 nativeContainer.setAd(nativeAD);
+//				 }
+//			 }
+//
+//			 @Override
+//			 public void onFailReceived(String arg0) {
+//			 }
+//
+//		 });
+//
+//
+//		 setContentView(nativeContainer); // 將視覺化的View進行定義
+//
+//		 nativeAD.loadAD();
+
+
 	 }
 	private void startAdLocus() {
 		AdLocusLayout adlocusLayout = new AdLocusLayout(this, AdLocusLayout.AD_SIZE_BANNER, "7fd30836d67285c1023c79740d4832a5688bdc6b", 15);

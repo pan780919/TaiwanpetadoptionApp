@@ -47,6 +47,7 @@ android/support/v4/graphics/drawable/DrawableCompat.class
 com/jackpan/TaiwanpetadoptionApp/R$string.class
 com/adbert/util/enums/ActionType.class
 android/support/v4/app/FragmentManagerImpl$3.class
+com/jackpan/TaiwanpetadoptionApp/SelectListViewPage$2.class
 com/google/firebase/messaging/RemoteMessage$Notification.class
 com/jackpan/TaiwanpetadoptionApp/R.class
 com/adlocus/a/g.class
@@ -364,6 +365,7 @@ android/support/v7/widget/ChildHelper.class
 com/util/IabHelper$1.class
 android/support/v4/media/session/PlaybackStateCompat$MediaKeyAction.class
 com/google/android/gms/ads/internal/overlay/zzx.class
+com/adbert/AdbertInterstitialAD.class
 android/support/multidex/ZipUtil.class
 com/google/android/gms/internal/zztc.class
 com/google/android/gms/internal/zzht.class
@@ -413,7 +415,6 @@ com/google/android/gms/internal/zzakw.class
 com/google/android/gms/location/internal/zzf.class
 com/adbert/view/CPMBannerView.class
 android/support/annotation/ColorRes.class
-com/hos/MySharedPreferences.class
 com/google/android/gms/wearable/MessageApi$FilterType.class
 android/support/v4/view/ViewPager$2.class
 vpadn/m.class
@@ -583,6 +584,7 @@ vpadn/ac.class
 com/google/android/gms/internal/zzdd.class
 com/google/android/gms/analytics/internal/zzaj.class
 com/google/android/gms/ads/doubleclick/PublisherAdRequest.class
+com/hos/ResultData.class
 com/google/android/gms/internal/zzib.class
 com/vpadn/widget/VpadnActivity$10.class
 android/support/v7/appcompat/R$layout.class
@@ -624,6 +626,7 @@ com/google/firebase/crash/internal/service/FirebaseCrashSenderService.class
 com/google/android/gms/internal/zzch.class
 com/google/android/gms/location/FusedLocationProviderApi.class
 com/google/android/gms/location/places/personalized/zze.class
+com/jackpan/TaiwanpetadoptionApp/SelectListViewPage.class
 com/google/android/gms/dynamic/zzg$zza.class
 com/google/android/gms/tagmanager/zzad.class
 android/support/annotation/AnyRes.class
@@ -910,6 +913,7 @@ com/google/android/gms/internal/zzld.class
 com/google/android/gms/appinvite/PreviewActivity.class
 com/google/android/gms/internal/zzks.class
 com/google/android/gms/internal/zzkq.class
+com/jackpan/TaiwanpetadoptionApp/SelectListViewPage$1.class
 com/google/android/gms/nearby/messages/devices/NearbyDevice.class
 com/google/android/exoplayer/FrameworkSampleSource.class
 com/google/android/gms/internal/zzij.class
@@ -1177,6 +1181,7 @@ com/google/android/gms/ads/internal/request/zzc.class
 com/google/android/gms/ads/internal/client/zzaf.class
 com/facebook/share/model/ShareContent.class
 com/bumptech/glide/manager/LifecycleListener.class
+com/hos/TwoActivity$4.class
 com/google/android/gms/internal/zzci.class
 com/google/android/gms/internal/zztd.class
 com/google/android/gms/ads/internal/overlay/zzo.class

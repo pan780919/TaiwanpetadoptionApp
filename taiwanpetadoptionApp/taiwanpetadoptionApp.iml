@@ -209,6 +209,7 @@
     <orderEntry type="library" exported="" name="bolts-tasks-1.4.0" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-23.2.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-auth-common-9.0.0" level="project" />
+    <orderEntry type="library" exported="" name="adbert-sdk-tracking-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="firebase-storage-common-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-appindexing-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="vpadn-sdk-obf452-50506102-1605051432-f98ce76" level="project" />
@@ -234,5 +235,12 @@
     <orderEntry type="library" exported="" name="firebase-analytics-9.0.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-tagmanager-9.0.0" level="project" />
     <orderEntry type="module" module-name="admobadapter" exported="" />
+    <orderEntry type="library" exported="" name="play-services-ads-8.4.0" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-23.2.0" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-23.2.0" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-23.2.0" level="project" />
+    <orderEntry type="library" exported="" name="animated-vector-drawable-23.2.0" level="project" />
+    <orderEntry type="library" exported="" name="support-vector-drawable-23.2.0" level="project" />
+    <orderEntry type="library" exported="" name="play-services-basement-8.4.0" level="project" />
   </component>
 </module>

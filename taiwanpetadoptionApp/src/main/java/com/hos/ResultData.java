@@ -66,10 +66,10 @@ public class ResultData implements Comparable<ResultData>{
 //	String R_LANE;//
 //	String R_ALLEY;//
 //	String R_NO ;// "63號",
-
-	String TM97_X;// "309453.733",
-	String TM97_Y;// "2764617.394",
-	String DATA_STR;//"農曆2月19日(觀世音菩薩誕辰)|農曆6月19日|農曆9月18日|農曆9月19日|農曆9月20日|",
+//
+//	String TM97_X;// "309453.733",
+//	String TM97_Y;// "2764617.394",
+//	String DATA_STR;//"農曆2月19日(觀世音菩薩誕辰)|農曆6月19日|農曆9月18日|農曆9月19日|農曆9月20日|",
 
 //	
 //	String AVAILABLECAR;

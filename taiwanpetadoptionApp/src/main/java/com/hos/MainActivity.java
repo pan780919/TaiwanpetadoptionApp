@@ -21,6 +21,7 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
@@ -33,8 +34,14 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.adbert.AdbertListener;
+import com.adbert.AdbertLoopADView;
+import com.adbert.AdbertOrientation;
+import com.adbert.AdbertTrace;
+import com.adbert.ExpandVideoPosition;
 import com.adlocus.PushAd;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.gson.Gson;
@@ -91,24 +98,18 @@ public class MainActivity extends Activity implements android.location.LocationL
 	private double latList, lonList;
 	private TextView mDaytex;
 	private Calendar calendar;
+	AdbertLoopADView adbertView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		// //開啟全螢幕
-		// getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-		getWindow().setFormat(PixelFormat.TRANSPARENT);
-		// WindowManager.LayoutParams.FLAG_FULLSCREEN);
-		// //設定隱藏APP標題
-		// requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_main_2);
 		this.locationMgr = (LocationManager) this.getSystemService(LOCATION_SERVICE);
 
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);// 螢幕一直亮
 		getWindow().setSoftInputMode(
 				WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);// 不彈跳出鍵盤
-
-		calendar = Calendar.getInstance();
+			showAdbert();
 //
 //		progressDialog = ProgressDialog.show(MainActivity.this, "讀取中",
 //				"目前資料量比較龐大，請耐心等候！", false, false,
@@ -138,30 +139,30 @@ public class MainActivity extends Activity implements android.location.LocationL
 //
 //
 //		});
-		Intent promotionIntent = new Intent(this, MainActivity.class);
-		PushAd.enablePush(this, MyAdKey.AdLoucskey, promotionIntent);
-//				PushAd.test(this);
-		boolean isFirstUse = MySharedPreferences.getIsFirstUsed(this);
-		if (isFirstUse) {
-			new AlertDialog.Builder(this)
-					.setTitle("歡迎使用本程式！！")
-					.setMessage("")
-					.setPositiveButton("確定",
-							new DialogInterface.OnClickListener() {
-								@Override
-								public void onClick(DialogInterface dialog, int which) {
-									MySharedPreferences.saveIsFirstUsed(MainActivity.this);
-									dialog.dismiss();
-								}
-							}).show();
-		}
+//		Intent promotionIntent = new Intent(this, MainActivity.class);
+//		PushAd.enablePush(this, MyAdKey.AdLoucskey, promotionIntent);
+////				PushAd.test(this);
+//		boolean isFirstUse = MySharedPreferences.getIsFirstUsed(this);
+//		if (isFirstUse) {
+//			new AlertDialog.Builder(this)
+//					.setTitle("歡迎使用本程式！！")
+//					.setMessage("")
+//					.setPositiveButton("確定",
+//							new DialogInterface.OnClickListener() {
+//								@Override
+//								public void onClick(DialogInterface dialog, int which) {
+//									MySharedPreferences.saveIsFirstUsed(MainActivity.this);
+//									dialog.dismiss();
+//								}
+//							}).show();
+//		}
 
-		AdView mAdView = (AdView) findViewById(R.id.adView);
-		AdRequest adRequest = new AdRequest.Builder().build();
-		mAdView.loadAd(adRequest);
-		interstitial = new InterstitialAd(this);
-		interstitial.setAdUnitId(MyAdKey.AdmobinterstitialBannerId);
-		interstitial.loadAd(adRequest);
+//		AdView mAdView = (AdView) findViewById(R.id.adView);
+//		AdRequest adRequest = new AdRequest.Builder().build();
+//		mAdView.loadAd(adRequest);
+//		interstitial = new InterstitialAd(this);
+//		interstitial.setAdUnitId(MyAdKey.AdmobinterstitialBannerId);
+//		interstitial.loadAd(adRequest);
 		petlist = (ListView) findViewById(R.id.listView1);
 
 		mSpinner = (Spinner) findViewById(R.id.spinner);
@@ -196,18 +197,40 @@ public class MainActivity extends Activity implements android.location.LocationL
 
 	}
 
+	private void showAdbert() {
+		adbertView = (AdbertLoopADView)findViewById(R.id.adbertADView);
+		adbertView.setMode(AdbertOrientation.NORMAL);
+		adbertView.setExpandVideo(ExpandVideoPosition.BOTTOM);
+		adbertView.setFullScreen(false);
+		adbertView.setBannerSize(AdSize.BANNER);
+		adbertView.setAPPID("20161111000002", "5a73897de2c53f95333b6ddaf23639c7");
+		adbertView.setListener(new AdbertListener() {
+			@Override
+			public void onReceive(String msg) {
+				Log.d(TAG, "onReceive: " + msg);
+			}
+
+			@Override
+			public void onFailedReceive(String msg) {
+				Log.d(TAG, "onFailedReceive: " + msg);
+
+			}
+		});
+		adbertView.start();
+	}
+
 	@Override
 	protected void onResume() {
 		super.onResume();
 		mAdapter.updateData(mAllData);
 		// 取得位置提供者，不下條件，讓系統決定最適用者，true 表示生效的 provider
-//		
+
 		String provider = this.locationMgr.getBestProvider(new Criteria(), true);
 		if (provider == null) {
-			Log.e("Jack", "沒有 location provider 可以使用");
+
 			return;
 		}
-		Log.e("Jack", "取得 provider - " + provider);
+
 		if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
 			// TODO: Consider calling
 			//    ActivityCompat#requestPermissions
@@ -219,21 +242,43 @@ public class MainActivity extends Activity implements android.location.LocationL
 			return;
 		}
 		this.locationMgr.requestLocationUpdates(provider, 0, 0, this);
-			Location location = this.locationMgr.getLastKnownLocation(provider);
-			if (location == null) {
-				Log.e("Jack","未取過 location");
-				  location=this.locationMgr.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-				  this.onLocationChanged(location);
-			return;
-			}
-			Log.e("Jack","取得上次的 location");
+		Location location = this.locationMgr.getLastKnownLocation(provider);
+		if (location == null) {
+			location = this.locationMgr.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
 			this.onLocationChanged(location);
+			return;
+		}
+		Log.e("Jack", "取得上次的 location");
+		this.onLocationChanged(location);
+		adbertView.resume();
 	}
+
 	@Override
 	protected void onPause() {
-	super.onPause();
-	Log.e("jack","removeUpdates...");
-	this.locationMgr.removeUpdates(this);
+		super.onPause();
+
+		if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+			// TODO: Consider calling
+			//    ActivityCompat#requestPermissions
+			// here to request the missing permissions, and then overriding
+			//   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+			//                                          int[] grantResults)
+			// to handle the case where the user grants the permission. See the documentation
+			// for ActivityCompat#requestPermissions for more details.
+			return;
+		}
+		if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+			// TODO: Consider calling
+			//    ActivityCompat#requestPermissions
+			// here to request the missing permissions, and then overriding
+			//   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+			//                                          int[] grantResults)
+			// to handle the case where the user grants the permission. See the documentation
+			// for ActivityCompat#requestPermissions for more details.
+			return;
+		}
+		this.locationMgr.removeUpdates(this);
+		adbertView.pause();
 	}
 
 	private static final String TAG = "MainActivity";
@@ -246,7 +291,6 @@ public class MainActivity extends Activity implements android.location.LocationL
 			progressDialog.setMessage("因資料量比較龐大，請耐心等候！");
 			progressDialog.setCancelable(false);
 			progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-			progressDialog.setIndeterminate(true);
 			progressDialog.show();
 		}
 
@@ -353,7 +397,6 @@ public class MainActivity extends Activity implements android.location.LocationL
 					sb.append(value);
 				}
 				String result = sb.toString();
-				Log.d(TAG, "doInBackground: "+result.length());
 				ArrayList<ResultData> allData = new ArrayList<ResultData>();
 				mKind = new HashMap<String, ArrayList<ResultData>>();//city
 				mCity = new HashMap<String,ArrayList<String>>();
@@ -375,6 +418,7 @@ public class MainActivity extends Activity implements android.location.LocationL
 //							publishProgress(Integer.valueOf(i));
 //							Log.d(TAG, "onProgressUpdate: "+Integer.valueOf(i));
 							publishProgress((int) ((i / (float) count) * 100));
+//							Log.d(TAG, "onProgressUpdate: "+(int) ((i / (float) count) * 100));
 //							JSONArray jsonarry2 =jsonarry.getJSONArray(i);
 //							for( int j =0 ; j<jsonarry2.length() ; j++){
 //
@@ -480,6 +524,7 @@ public class MainActivity extends Activity implements android.location.LocationL
 		protected void onProgressUpdate(Integer... values) {
 			super.onProgressUpdate(values);
 			setProgress(values[0]);
+
 			progressDialog.setProgress(values[0]);
 
 		}
@@ -494,7 +539,6 @@ public class MainActivity extends Activity implements android.location.LocationL
 	@SuppressLint("NewApi")
 	public void selectSpinner(String kinds) {
 		ArrayList<String> kindList = mCity.get(kinds);
-		Log.e("Jack", "kindList:"+kindList.toString());
 		mAdapter2.clear();
 //		for (ResultData resultData : kindList) {
 //			Log.e("Jack",resultData.Township.toString());
@@ -524,7 +568,6 @@ public class MainActivity extends Activity implements android.location.LocationL
 
 		@Override
 		public int getCount() {
-			Log.e("Jack", mDatas.size()+"");
 	
 			return mDatas.size();
 		}
@@ -618,8 +661,8 @@ public class MainActivity extends Activity implements android.location.LocationL
 
 		if ((keyCode == KeyEvent.KEYCODE_BACK)) { // 確定按下退出鍵
 
-			ConfirmExit(); // 呼叫ConfirmExit()函數
-
+//			ConfirmExit(); // 呼叫ConfirmExit()函數
+			MainActivity.this.finish();// 關閉activity
 			return true;
 
 		}
@@ -658,11 +701,14 @@ public class MainActivity extends Activity implements android.location.LocationL
 
 	}
 
+
+
+
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
+		adbertView.destroy();
 	}
-
 
 	public void resignKeyboard(Activity activity)
 	{
@@ -700,6 +746,6 @@ public class MainActivity extends Activity implements android.location.LocationL
 		Latitude =Double.toString(location.getLatitude());
 		Longitude = Double.toString(location.getLongitude());
 	}
-	
+
 	 
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_select_list_view_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/select_listview"
+        android:layout_weight="8"
+        ></ListView>
+    <com.adbert.AdbertLoopADView
+        android:gravity="center"
+        android:id="@+id/adbertADView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.adbert.AdbertLoopADView>
+</LinearLayout>
+<!-- From: file:/C:/Users/HYXEN20141227/Documents/TaiwanpetadoptionApp/taiwanpetadoptionApp/src/main/res/layout/activity_select_list_view_page.xml -->
